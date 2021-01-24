@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\design_similar.xml",
+        "source": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\src\\main\\res\\layout\\design_similar.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\design_movies.xml",
+        "source": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\src\\main\\res\\layout\\design_movies.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\design_home_viewpager.xml",
+        "source": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\src\\main\\res\\layout\\design_home_viewpager.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_details.xml",
+        "source": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\src\\main\\res\\layout\\fragment_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_trailer.xml",
+        "source": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\src\\main\\res\\layout\\fragment_trailer.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

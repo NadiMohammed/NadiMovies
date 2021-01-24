@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                 
+                            
+                                                               
+
+           
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_home_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background"
+            tools:context=".ui.home.HomeFragment">
+
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:padding="5dp"
+                android:tag="binding_1"                           />
+
+            <TextView
+                android:id="@+id/nowPlayingText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/viewPager"
+                android:layout_marginTop="10dp"
+                android:background="@color/titleBackground"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="@string/now_playing"
+                android:textColor="@color/gold"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/nowPlayingRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nowPlayingText"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:tag="binding_2"                     
+                tools:itemCount="10"
+                tools:listitem="@layout/design_movies" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:tag="binding_3"             />
+
+        </RelativeLayout>
+    </ScrollView>
+         

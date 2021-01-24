@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\navigation.xml","javaFiles":["com.nadi.nadimovies.ui.home.HomeFragmentDirections","com.nadi.nadimovies.ui.details.DetailsFragmentDirections","com.nadi.nadimovies.ui.details.DetailsFragmentArgs","com.nadi.nadimovies.ui.trailer.TrailerFragmentArgs"]}]

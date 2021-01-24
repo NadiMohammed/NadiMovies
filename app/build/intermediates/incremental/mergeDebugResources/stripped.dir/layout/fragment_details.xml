@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                 
+                            
+                                                                     
+
+           
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        tools:context=".ui.details.DetailsFragment" android:tag="layout/fragment_details_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/movieImg"
+                android:tag="binding_1"                          
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="matrix" />
+
+            <ImageView
+                android:id="@+id/playImg"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="150dp"
+                android:src="@drawable/play_icon" />
+
+            <View
+                android:id="@+id/overlayView"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="200dp"
+                android:background="@drawable/gradient_effect" />
+
+            <TextView
+                android:id="@+id/movieNameTxt"
+                android:tag="binding_2"                    
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/movieImg"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/dateImg"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/movieNameTxt"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/date_icon" />
+
+            <TextView
+                android:id="@+id/releaseDateTxt"
+                android:tag="binding_3"                           
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/movieNameTxt"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/dateImg"
+                android:textColor="@color/gray" />
+
+            <ImageView
+                android:id="@+id/rateImg"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/movieNameTxt"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/releaseDateTxt"
+                android:src="@drawable/star_icon" />
+
+            <TextView
+                android:id="@+id/rateTxt"
+                android:tag="binding_4"                                      
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/movieNameTxt"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/rateImg"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/overviewTxt"
+                android:tag="binding_5"                       
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/releaseDateTxt"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/nowPlayingText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/overviewTxt"
+                android:layout_marginTop="10dp"
+                android:background="@color/titleBackground"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="@string/similar_movies"
+                android:textColor="@color/gold"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/similarMoviesRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nowPlayingText"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:tag="binding_6"                            
+                tools:itemCount="10"
+                tools:listitem="@layout/design_movies" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+         

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NadiMovies</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="similar_movies">Similar Movies</string>
+</resources>
