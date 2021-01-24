@@ -4,12 +4,18 @@
 * Clean Code
 * Unit Test
 * MVVM 
-*Databinding
-*LiveData 
-*Coroutines 
-*Retrofit
-*Dagger Hilt
-*Extension Functions
-*Repository Pattern
-*Navigation Component
+* Databinding
+* LiveData
+* ViewModel
+* Coroutines 
+* Retrofit
+* Dagger Hilt
+* Mockito
+* Viewpager2
+* Youtube Player
+* Extension Functions
+* Repository Pattern
+* Navigation Component
+* Memory Leak (Leakcanary)
 
+##Images
