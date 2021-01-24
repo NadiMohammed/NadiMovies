@@ -1,2 +1,21 @@
 # NadiMovies
  
+## This is a clean architecture app example built with to show everything i learned like
+* Clean Code
+* Unit Test
+* MVVM 
+* Databinding
+* LiveData
+* ViewModel
+* Coroutines 
+* Retrofit
+* Dagger Hilt
+* Mockito
+* Viewpager2
+* Youtube Player
+* Extension Functions
+* Repository Pattern
+* Navigation Component
+* Memory Leak (Leakcanary)
+
+##Images
