@@ -20,3 +20,7 @@
 
 ## Images
 ![alt text](https://github.com/NadiMohammed/NadiMovies/blob/main/1.jpg)
+
+![alt text](https://github.com/NadiMohammed/NadiMovies/blob/main/2.jpg)
+
+![alt text](https://github.com/NadiMohammed/NadiMovies/blob/main/3.jpg)
