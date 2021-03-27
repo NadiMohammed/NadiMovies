@@ -1,6 +1,6 @@
 package com.nadi.data
 
-import com.nadi.core.OperationResult
+import com.nadi.nadimovies.domain.OperationResult
 import retrofit2.Response
 
 abstract class CallbackHandler {
@@ -8,7 +8,7 @@ abstract class CallbackHandler {
         return try {
             val myResp = call.invoke()
             if (myResp.isSuccessful) {
-                com.nadi.core.OperationResult.Success(myResp.body()!!)
+                OperationResult.Success(myResp.body()!!)
             } else {
 
                 /*

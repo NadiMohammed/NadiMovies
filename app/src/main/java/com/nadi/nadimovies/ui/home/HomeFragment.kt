@@ -4,39 +4,49 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.findNavController
-import com.nadi.core.movie.Movie
-import com.nadi.nadimovies.R
+import androidx.navigation.fragment.findNavController
 import com.nadi.nadimovies.databinding.FragmentHomeBinding
-import dagger.hilt.android.AndroidEntryPoint
+import com.nadi.nadimovies.domain.movie.Movie
+import com.nadi.nadimovies.ui.home.HomeAdapter.MoviesViewType.NORMAL
+import com.nadi.nadimovies.ui.home.HomeAdapter.MoviesViewType.PAGER
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 
-@AndroidEntryPoint
+//@AndroidEntryPoint
 @ExperimentalCoroutinesApi
 class HomeFragment : Fragment(), HomeAdapter.OnMovieClickListener {
     private val viewModel: HomeViewModel by lazy {
         ViewModelProvider(this).get(HomeViewModel::class.java)
     }
 
-    private lateinit var binding: FragmentHomeBinding
+    private var _binding: FragmentHomeBinding? = null
+    private val binding get() = _binding!!
+
+    private lateinit var HomeAdapter: HomeAdapter
+    private lateinit var upcomingMoviesAdapter: HomeAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        binding = FragmentHomeBinding.inflate(inflater)
+    ): View {
+        _binding = FragmentHomeBinding.inflate(inflater)
 
-        // Allows Data Binding to Observe LiveData with the lifecycle of this Fragment
-        binding.lifecycleOwner = viewLifecycleOwner
+        upcomingMoviesAdapter = HomeAdapter(PAGER, this)
+        HomeAdapter = HomeAdapter(NORMAL, this)
 
-        // Giving the binding access to the HomeViewModel
-        binding.viewModel = viewModel
-        binding.viewPager.adapter = HomeAdapter(HomeAdapter.MoviesViewType.PAGER, this)
-        binding.nowPlayingRecycler.adapter = HomeAdapter(HomeAdapter.MoviesViewType.NORMAL, this)
+        binding.nowPlayingRecycler.adapter = HomeAdapter
+        binding.viewPager.adapter = upcomingMoviesAdapter
+
+        viewModel.property.observe(viewLifecycleOwner, {
+            HomeAdapter.submitList(it.results)
+        })
+
+        viewModel.property.observe(viewLifecycleOwner, {
+            upcomingMoviesAdapter.submitList(it.results)
+        })
+
 
 //        binding.nowPlayingRecycler.adapter = HomeAdapter(HomeAdapter.OnClickListener {
 //            navigateToMovieDetails(it)
@@ -45,16 +55,21 @@ class HomeFragment : Fragment(), HomeAdapter.OnMovieClickListener {
         return binding.root
     }
 
-
     private fun navigateToMovieDetails(movie: Movie.Result) {
-
-        val bundle = bundleOf("MovieResult" to movie)
-        requireView().findNavController()
-            .navigate(R.id.action_homeFragment_to_detailsFragment, bundle)
+        this.findNavController()
+            .navigate(HomeFragmentDirections.actionHomeFragmentToDetailsFragment(movie))
     }
 
     override fun onMovieItemClick(movie: Movie.Result) {
         navigateToMovieDetails(movie)
     }
+
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+
+
 }
 

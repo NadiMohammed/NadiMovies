@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.navigation.NavArgs;
-import com.nadi.core.movie.Movie;
+import com.nadi.nadimovies.domain.movie.Movie;
 import java.io.Serializable;
 import java.lang.IllegalArgumentException;
 import java.lang.Object;
@@ -20,6 +20,7 @@ public class DetailsFragmentArgs implements NavArgs {
   private DetailsFragmentArgs() {
   }
 
+  @SuppressWarnings("unchecked")
   private DetailsFragmentArgs(HashMap argumentsMap) {
     this.arguments.putAll(argumentsMap);
   }
@@ -101,10 +102,12 @@ public class DetailsFragmentArgs implements NavArgs {
   public static class Builder {
     private final HashMap arguments = new HashMap();
 
+    @SuppressWarnings("unchecked")
     public Builder(DetailsFragmentArgs original) {
       this.arguments.putAll(original.arguments);
     }
 
+    @SuppressWarnings("unchecked")
     public Builder(@Nullable Movie.Result movie) {
       this.arguments.put("movie", movie);
     }
@@ -116,6 +119,7 @@ public class DetailsFragmentArgs implements NavArgs {
     }
 
     @NonNull
+    @SuppressWarnings("unchecked")
     public Builder setMovie(@Nullable Movie.Result movie) {
       this.arguments.put("movie", movie);
       return this;

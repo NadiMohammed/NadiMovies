@@ -5,8 +5,8 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.navigation.NavDirections;
-import com.nadi.core.movie.Movie;
 import com.nadi.nadimovies.R;
+import com.nadi.nadimovies.domain.movie.Movie;
 import java.io.Serializable;
 import java.lang.Object;
 import java.lang.Override;
@@ -32,11 +32,13 @@ public class DetailsFragmentDirections {
   public static class ActionDetailsFragmentToTrailerFragment implements NavDirections {
     private final HashMap arguments = new HashMap();
 
+    @SuppressWarnings("unchecked")
     private ActionDetailsFragmentToTrailerFragment(int movieID) {
       this.arguments.put("movieID", movieID);
     }
 
     @NonNull
+    @SuppressWarnings("unchecked")
     public ActionDetailsFragmentToTrailerFragment setMovieID(int movieID) {
       this.arguments.put("movieID", movieID);
       return this;
@@ -104,11 +106,13 @@ public class DetailsFragmentDirections {
   public static class ActionDetailsFragmentSelf implements NavDirections {
     private final HashMap arguments = new HashMap();
 
+    @SuppressWarnings("unchecked")
     private ActionDetailsFragmentSelf(@Nullable Movie.Result movie) {
       this.arguments.put("movie", movie);
     }
 
     @NonNull
+    @SuppressWarnings("unchecked")
     public ActionDetailsFragmentSelf setMovie(@Nullable Movie.Result movie) {
       this.arguments.put("movie", movie);
       return this;

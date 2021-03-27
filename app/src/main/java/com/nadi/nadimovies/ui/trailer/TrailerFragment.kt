@@ -9,25 +9,24 @@ import androidx.lifecycle.ViewModelProvider
 import com.nadi.nadimovies.databinding.FragmentTrailerBinding
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
-import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
-@AndroidEntryPoint
+//@AndroidEntryPoint
 @ExperimentalCoroutinesApi
 class TrailerFragment : DialogFragment() {
-    val viewModel: TrailerViewModel by lazy {
+    private val viewModel: TrailerViewModel by lazy {
         ViewModelProvider(this).get(TrailerViewModel::class.java)
     }
 
-    private lateinit var binding: FragmentTrailerBinding
+    private var _binding: FragmentTrailerBinding? = null
+    private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentTrailerBinding.inflate(inflater)
-        binding.lifecycleOwner = viewLifecycleOwner
+        _binding = FragmentTrailerBinding.inflate(inflater)
 
         val args = arguments?.let { TrailerFragmentArgs.fromBundle(it) }
 
@@ -53,4 +52,8 @@ class TrailerFragment : DialogFragment() {
     }
 
 
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
 }

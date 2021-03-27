@@ -16,6 +16,7 @@ public class TrailerFragmentArgs implements NavArgs {
   private TrailerFragmentArgs() {
   }
 
+  @SuppressWarnings("unchecked")
   private TrailerFragmentArgs(HashMap argumentsMap) {
     this.arguments.putAll(argumentsMap);
   }
@@ -86,10 +87,12 @@ public class TrailerFragmentArgs implements NavArgs {
   public static class Builder {
     private final HashMap arguments = new HashMap();
 
+    @SuppressWarnings("unchecked")
     public Builder(TrailerFragmentArgs original) {
       this.arguments.putAll(original.arguments);
     }
 
+    @SuppressWarnings("unchecked")
     public Builder(int movieID) {
       this.arguments.put("movieID", movieID);
     }
@@ -101,6 +104,7 @@ public class TrailerFragmentArgs implements NavArgs {
     }
 
     @NonNull
+    @SuppressWarnings("unchecked")
     public Builder setMovieID(int movieID) {
       this.arguments.put("movieID", movieID);
       return this;

@@ -1,7 +1,7 @@
 package com.nadi.data.network
 
-import com.nadi.core.movie.Movie
-import com.nadi.core.trailer.Trailer
+import com.nadi.nadimovies.domain.movie.Movie
+import com.nadi.nadimovies.domain.trailer.Trailer
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path

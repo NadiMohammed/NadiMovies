@@ -1,162 +1,33 @@
-com/nadi/nadimovies/DataBinderMapperImpl.java
- com.nadi.nadimovies.DataBinderMapperImpl
- com.nadi.nadimovies.DataBinderMapperImpl$InnerBrLookup
- com.nadi.nadimovies.DataBinderMapperImpl$InnerLayoutIdLookup
-com/nadi/nadimovies/databinding/DesignHomeViewpagerBindingImpl.java
- com.nadi.nadimovies.databinding.DesignHomeViewpagerBindingImpl
-com/nadi/nadimovies/databinding/DesignMoviesBindingImpl.java
- com.nadi.nadimovies.databinding.DesignMoviesBindingImpl
-androidx/databinding/DataBinderMapperImpl.java
- androidx.databinding.DataBinderMapperImpl
-hilt_aggregated_deps/com_nadi_nadimovies_ui_details_DetailsFragment_GeneratedInjectorModuleDeps.java
- hilt_aggregated_deps.com_nadi_nadimovies_ui_details_DetailsFragment_GeneratedInjectorModuleDeps
-com/nadi/nadimovies/ui/details/DetailsViewModel_HiltModule.java
- com.nadi.nadimovies.ui.details.DetailsViewModel_HiltModule
-androidx/databinding/library/baseAdapters/BR.java
- androidx.databinding.library.baseAdapters.BR
-com/nadi/nadimovies/MainApplication_GeneratedInjector.java
- com.nadi.nadimovies.MainApplication_GeneratedInjector
-com/nadi/nadimovies/generated/callback/OnClickListener.java
- com.nadi.nadimovies.generated.callback.OnClickListener
- com.nadi.nadimovies.generated.callback.OnClickListener$Listener
-com/nadi/nadimovies/ui/Hilt_MainActivity.java
- com.nadi.nadimovies.ui.Hilt_MainActivity
-com/nadi/nadimovies/ui/MainActivity_GeneratedInjector.java
- com.nadi.nadimovies.ui.MainActivity_GeneratedInjector
-com/nadi/nadimovies/ui/details/DetailsViewModel_AssistedFactory_Factory.java
- com.nadi.nadimovies.ui.details.DetailsViewModel_AssistedFactory_Factory
-com/nadi/nadimovies/databinding/FragmentDetailsBindingImpl.java
- com.nadi.nadimovies.databinding.FragmentDetailsBindingImpl
-com/nadi/nadimovies/databinding/FragmentTrailerBindingImpl.java
- com.nadi.nadimovies.databinding.FragmentTrailerBindingImpl
+com/nadi/nadimovies/databinding/FragmentHomeBinding.java
+ com.nadi.nadimovies.databinding.FragmentHomeBinding
+com/nadi/nadimovies/databinding/DesignMoviesBinding.java
+ com.nadi.nadimovies.databinding.DesignMoviesBinding
 com/nadi/nadimovies/databinding/DesignSimilarBinding.java
  com.nadi.nadimovies.databinding.DesignSimilarBinding
-hilt_aggregated_deps/com_nadi_nadimovies_ui_trailer_TrailerViewModel_HiltModuleModuleDeps.java
- hilt_aggregated_deps.com_nadi_nadimovies_ui_trailer_TrailerViewModel_HiltModuleModuleDeps
-com/nadi/nadimovies/ui/home/HomeViewModel_AssistedFactory_Factory.java
- com.nadi.nadimovies.ui.home.HomeViewModel_AssistedFactory_Factory
+com/nadi/nadimovies/databinding/DesignHomeViewpagerBinding.java
+ com.nadi.nadimovies.databinding.DesignHomeViewpagerBinding
+com/nadi/nadimovies/ui/details/DetailsFragmentArgs.java
+ com.nadi.nadimovies.ui.details.DetailsFragmentArgs
+ com.nadi.nadimovies.ui.details.DetailsFragmentArgs$1
+ com.nadi.nadimovies.ui.details.DetailsFragmentArgs$Builder
 com/nadi/nadimovies/ui/home/HomeFragmentDirections.java
  com.nadi.nadimovies.ui.home.HomeFragmentDirections
  com.nadi.nadimovies.ui.home.HomeFragmentDirections$1
  com.nadi.nadimovies.ui.home.HomeFragmentDirections$ActionHomeFragmentToDetailsFragment
-com/nadi/nadimovies/ui/home/HomeViewModel_AssistedFactory.java
- com.nadi.nadimovies.ui.home.HomeViewModel_AssistedFactory
-com/nadi/nadimovies/DataBindingTriggerClass.java
- com.nadi.nadimovies.DataBindingTriggerClass
+com/nadi/nadimovies/databinding/FragmentTrailerBinding.java
+ com.nadi.nadimovies.databinding.FragmentTrailerBinding
 com/nadi/nadimovies/ui/details/DetailsFragmentDirections.java
  com.nadi.nadimovies.ui.details.DetailsFragmentDirections
  com.nadi.nadimovies.ui.details.DetailsFragmentDirections$1
  com.nadi.nadimovies.ui.details.DetailsFragmentDirections$ActionDetailsFragmentSelf
  com.nadi.nadimovies.ui.details.DetailsFragmentDirections$ActionDetailsFragmentToTrailerFragment
-com/nadi/nadimovies/ui/details/DetailsFragmentArgs.java
- com.nadi.nadimovies.ui.details.DetailsFragmentArgs
- com.nadi.nadimovies.ui.details.DetailsFragmentArgs$1
- com.nadi.nadimovies.ui.details.DetailsFragmentArgs$Builder
-com/nadi/nadimovies/databinding/DesignSimilarBindingImpl.java
- com.nadi.nadimovies.databinding.DesignSimilarBindingImpl
-com/nadi/nadimovies/ui/details/DetailsViewModel_AssistedFactory.java
- com.nadi.nadimovies.ui.details.DetailsViewModel_AssistedFactory
-com/nadi/nadimovies/ui/home/HomeViewModel_HiltModule.java
- com.nadi.nadimovies.ui.home.HomeViewModel_HiltModule
-com/nadi/nadimovies/ui/trailer/Hilt_TrailerFragment.java
- com.nadi.nadimovies.ui.trailer.Hilt_TrailerFragment
-com/nadi/nadimovies/ui/trailer/TrailerFragment_GeneratedInjector.java
- com.nadi.nadimovies.ui.trailer.TrailerFragment_GeneratedInjector
-hilt_aggregated_deps/com_nadi_nadimovies_ui_home_HomeFragment_GeneratedInjectorModuleDeps.java
- hilt_aggregated_deps.com_nadi_nadimovies_ui_home_HomeFragment_GeneratedInjectorModuleDeps
-com/nadi/nadimovies/Hilt_MainApplication.java
- com.nadi.nadimovies.Hilt_MainApplication
- com.nadi.nadimovies.Hilt_MainApplication$1
-hilt_aggregated_deps/com_nadi_nadimovies_ui_home_HomeViewModel_HiltModuleModuleDeps.java
- hilt_aggregated_deps.com_nadi_nadimovies_ui_home_HomeViewModel_HiltModuleModuleDeps
-com/nadi/nadimovies/databinding/DesignMoviesBinding.java
- com.nadi.nadimovies.databinding.DesignMoviesBinding
-com/nadi/nadimovies/BR.java
- com.nadi.nadimovies.BR
-com/nadi/nadimovies/ui/trailer/TrailerViewModel_AssistedFactory.java
- com.nadi.nadimovies.ui.trailer.TrailerViewModel_AssistedFactory
-com/nadi/nadimovies/databinding/DesignHomeViewpagerBinding.java
- com.nadi.nadimovies.databinding.DesignHomeViewpagerBinding
-com/nadi/nadimovies/databinding/FragmentTrailerBinding.java
- com.nadi.nadimovies.databinding.FragmentTrailerBinding
-com/nadi/nadimovies/ui/trailer/TrailerViewModel_HiltModule.java
- com.nadi.nadimovies.ui.trailer.TrailerViewModel_HiltModule
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
-hilt_aggregated_deps/com_nadi_nadimovies_MainApplication_GeneratedInjectorModuleDeps.java
- hilt_aggregated_deps.com_nadi_nadimovies_MainApplication_GeneratedInjectorModuleDeps
+com/nadi/nadimovies/databinding/FragmentDetailsBinding.java
+ com.nadi.nadimovies.databinding.FragmentDetailsBinding
+com/nadi/nadimovies/BuildConfig.java
+ com.nadi.nadimovies.BuildConfig
 com/nadi/nadimovies/databinding/ActivityMainBinding.java
  com.nadi.nadimovies.databinding.ActivityMainBinding
 com/nadi/nadimovies/ui/trailer/TrailerFragmentArgs.java
  com.nadi.nadimovies.ui.trailer.TrailerFragmentArgs
  com.nadi.nadimovies.ui.trailer.TrailerFragmentArgs$1
  com.nadi.nadimovies.ui.trailer.TrailerFragmentArgs$Builder
-hilt_aggregated_deps/com_nadi_nadimovies_ui_trailer_TrailerFragment_GeneratedInjectorModuleDeps.java
- hilt_aggregated_deps.com_nadi_nadimovies_ui_trailer_TrailerFragment_GeneratedInjectorModuleDeps
-com/nadi/nadimovies/databinding/ActivityMainBindingImpl.java
- com.nadi.nadimovies.databinding.ActivityMainBindingImpl
-com/nadi/nadimovies/databinding/FragmentDetailsBinding.java
- com.nadi.nadimovies.databinding.FragmentDetailsBinding
-com/nadi/nadimovies/BuildConfig.java
- com.nadi.nadimovies.BuildConfig
-com/nadi/nadimovies/databinding/FragmentHomeBinding.java
- com.nadi.nadimovies.databinding.FragmentHomeBinding
-hilt_aggregated_deps/com_nadi_nadimovies_ui_details_DetailsViewModel_HiltModuleModuleDeps.java
- hilt_aggregated_deps.com_nadi_nadimovies_ui_details_DetailsViewModel_HiltModuleModuleDeps
-com/nadi/nadimovies/databinding/FragmentHomeBindingImpl.java
- com.nadi.nadimovies.databinding.FragmentHomeBindingImpl
-com/nadi/nadimovies/ui/trailer/TrailerViewModel_AssistedFactory_Factory.java
- com.nadi.nadimovies.ui.trailer.TrailerViewModel_AssistedFactory_Factory
-hilt_aggregated_deps/com_nadi_nadimovies_ui_MainActivity_GeneratedInjectorModuleDeps.java
- hilt_aggregated_deps.com_nadi_nadimovies_ui_MainActivity_GeneratedInjectorModuleDeps
-com/nadi/nadimovies/ui/details/DetailsFragment_GeneratedInjector.java
- com.nadi.nadimovies.ui.details.DetailsFragment_GeneratedInjector
-com/nadi/nadimovies/ui/details/Hilt_DetailsFragment.java
- com.nadi.nadimovies.ui.details.Hilt_DetailsFragment
-com/nadi/nadimovies/ui/home/Hilt_HomeFragment.java
- com.nadi.nadimovies.ui.home.Hilt_HomeFragment
-com/nadi/nadimovies/DaggerMainApplication_HiltComponents_SingletonC.java
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$1
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ActivityRetainedCBuilder
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ActivityRetainedCImpl
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCBuilder
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$FragmentCBuilder
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$FragmentCImpl
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$FragmentCImpl$ViewWithFragmentCBuilder
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$FragmentCImpl$ViewWithFragmentCImpl
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$SwitchingProvider
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$ViewCBuilder
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$ViewCImpl
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCBuilder
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCImpl
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$Builder
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ServiceCBuilder
- com.nadi.nadimovies.DaggerMainApplication_HiltComponents_SingletonC$ServiceCImpl
-com/nadi/nadimovies/MainApplication_HiltComponents.java
- com.nadi.nadimovies.MainApplication_HiltComponents
- com.nadi.nadimovies.MainApplication_HiltComponents$ActivityC
- com.nadi.nadimovies.MainApplication_HiltComponents$ActivityC$Builder
- com.nadi.nadimovies.MainApplication_HiltComponents$ActivityCBuilderModule
- com.nadi.nadimovies.MainApplication_HiltComponents$ActivityRetainedC
- com.nadi.nadimovies.MainApplication_HiltComponents$ActivityRetainedC$Builder
- com.nadi.nadimovies.MainApplication_HiltComponents$ActivityRetainedCBuilderModule
- com.nadi.nadimovies.MainApplication_HiltComponents$FragmentC
- com.nadi.nadimovies.MainApplication_HiltComponents$FragmentC$Builder
- com.nadi.nadimovies.MainApplication_HiltComponents$FragmentCBuilderModule
- com.nadi.nadimovies.MainApplication_HiltComponents$ServiceC
- com.nadi.nadimovies.MainApplication_HiltComponents$ServiceC$Builder
- com.nadi.nadimovies.MainApplication_HiltComponents$ServiceCBuilderModule
- com.nadi.nadimovies.MainApplication_HiltComponents$SingletonC
- com.nadi.nadimovies.MainApplication_HiltComponents$ViewC
- com.nadi.nadimovies.MainApplication_HiltComponents$ViewC$Builder
- com.nadi.nadimovies.MainApplication_HiltComponents$ViewCBuilderModule
- com.nadi.nadimovies.MainApplication_HiltComponents$ViewModelC
- com.nadi.nadimovies.MainApplication_HiltComponents$ViewModelC$Builder
- com.nadi.nadimovies.MainApplication_HiltComponents$ViewModelCBuilderModule
- com.nadi.nadimovies.MainApplication_HiltComponents$ViewWithFragmentC
- com.nadi.nadimovies.MainApplication_HiltComponents$ViewWithFragmentC$Builder
- com.nadi.nadimovies.MainApplication_HiltComponents$ViewWithFragmentCBuilderModule
-com/nadi/nadimovies/ui/home/HomeFragment_GeneratedInjector.java
- com.nadi.nadimovies.ui.home.HomeFragment_GeneratedInjector

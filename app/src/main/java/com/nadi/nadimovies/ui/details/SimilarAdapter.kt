@@ -5,39 +5,13 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.nadi.core.movie.Movie
+import com.bumptech.glide.Glide
 import com.nadi.nadimovies.databinding.DesignSimilarBinding
+import com.nadi.nadimovies.domain.movie.Movie
 
-class SimilarAdapter(private val onClickListener: OnClickListener) :
-    ListAdapter<Movie.Result, SimilarAdapter.ViewHolder>(DiffCallback()) {
-
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        return ViewHolder.from(parent)
-    }
-
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(getItem(position))
-
-        holder.itemView.setOnClickListener {
-            onClickListener.onClick(getItem(position))
-        }
-    }
-
-    class ViewHolder private constructor(private val binding: DesignSimilarBinding) :
-        RecyclerView.ViewHolder(binding.root) {
-        fun bind(item: Movie.Result) {
-            binding.movie = item
-            binding.executePendingBindings()
-        }
-
-        companion object {
-            fun from(parent: ViewGroup): ViewHolder {
-                val binding =
-                    DesignSimilarBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-                return ViewHolder(binding)
-            }
-        }
-    }
+class SimilarAdapter(
+    private val onClickListener: OnSimilarClickListener
+) : ListAdapter<Movie.Result, SimilarAdapter.ViewHolder>(DiffCallback()) {
 
     class DiffCallback : DiffUtil.ItemCallback<Movie.Result>() {
         override fun areItemsTheSame(
@@ -55,7 +29,38 @@ class SimilarAdapter(private val onClickListener: OnClickListener) :
         }
     }
 
-    class OnClickListener(val clickListener: (Movie: Movie.Result) -> Unit) {
-        fun onClick(Movie: Movie.Result) = clickListener(Movie)
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
+        return ViewHolder.from(parent)
+    }
+
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        holder.bind(getItem(position), onClickListener)
+    }
+
+    class ViewHolder private constructor(private val binding: DesignSimilarBinding) :
+        RecyclerView.ViewHolder(binding.root) {
+        fun bind(item: Movie.Result, clickListener: OnSimilarClickListener) {
+            binding.movieNameTxt.text = item.title
+            Glide.with(itemView)
+                .load("https://image.tmdb.org/t/p/w500${item.poster_path}")
+                .into(binding.movieImg)
+            binding.rateTxt.text = item.vote_average.toString()
+
+            itemView.setOnClickListener {
+                clickListener.onSimilarItemClick(item)
+            }
+        }
+
+        companion object {
+            fun from(parent: ViewGroup): ViewHolder {
+                val binding =
+                    DesignSimilarBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+                return ViewHolder(binding)
+            }
+        }
+    }
+
+    interface OnSimilarClickListener {
+        fun onSimilarItemClick(movie: Movie.Result)
     }
 }

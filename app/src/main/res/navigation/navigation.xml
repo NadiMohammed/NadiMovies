@@ -25,7 +25,7 @@
         tools:layout="@layout/fragment_details">
         <argument
             android:name="movie"
-            app:argType="com.nadi.core.movie.Movie$Result"
+            app:argType="com.nadi.nadimovies.domain.movie.Movie$Result"
             app:nullable="true" />
         <action
             android:id="@+id/action_detailsFragment_to_trailerFragment"

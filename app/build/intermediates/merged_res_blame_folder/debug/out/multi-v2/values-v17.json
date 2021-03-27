@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pc-VM\\Desktop\\NadiMovies-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "C:\\Users\\egyno\\OneDrive\\Desktop\\NadiMovies-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pc-VM\\.gradle\\caches\\transforms-3\\fd67252a689d0e02facefc1cec5dabea\\transformed\\appcompat-1.2.0\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\egyno\\.gradle\\caches\\transforms-3\\6608f6f48cb1d2e63b7c9f3c23423db5\\transformed\\appcompat-1.2.0\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

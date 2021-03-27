@@ -1,21 +1,18 @@
 package com.nadi.nadimovies.ui.details
 
-import androidx.hilt.Assisted
-import androidx.hilt.lifecycle.ViewModelInject
-import androidx.lifecycle.*
-import com.nadi.core.OperationResult
-import com.nadi.core.movie.Movie
-import com.nadi.core.similar.SimilarUseCase
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.nadi.nadimovies.domain.OperationResult
+import com.nadi.nadimovies.domain.movie.Movie
+import com.nadi.nadimovies.domain.similar.movieGetSimilar
 import com.nadi.nadimovies.util.ApiStatus
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.launch
 
 @ExperimentalCoroutinesApi
-class DetailsViewModel @ViewModelInject constructor(
-    private val similarUseCase: SimilarUseCase,
-    @Assisted private val savedStateHandle: SavedStateHandle
-) : ViewModel(), LifecycleObserver {
-
+class DetailsViewModel(val movie: Movie.Result) : ViewModel() {
 
     private val _status = MutableLiveData<ApiStatus>()
     val status: LiveData<ApiStatus>
@@ -29,19 +26,14 @@ class DetailsViewModel @ViewModelInject constructor(
     val property: LiveData<Movie>
         get() = _property
 
-    private val _selectedMovie: MutableLiveData<Movie.Result> =
-        savedStateHandle.getLiveData("MovieResult")
-    val selectedMovie: LiveData<Movie.Result>
-        get() = _selectedMovie
-
     init {
-        getSimilarMoviesList()
+        getSimilarMoviesList(movie.id!!)
     }
 
-    private fun getSimilarMoviesList() {
+    private fun getSimilarMoviesList(movieID: Int) {
         viewModelScope.launch {
             _status.value = ApiStatus.LOADING
-            when (val result = similarUseCase.movieGetSimilar(selectedMovie.value!!.id!!)) {
+            when (val result = movieGetSimilar((movieID))) {
                 is OperationResult.Success -> {
                     _property.value = result.data
                     _status.value = ApiStatus.DONE

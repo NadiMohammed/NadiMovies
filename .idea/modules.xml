@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/NadiMovies.iml" filepath="$PROJECT_DIR$/.idea/modules/NadiMovies.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NadiMovies.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NadiMovies.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/NadiMovies.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/NadiMovies.core.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/NadiMovies.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/NadiMovies.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/NadiMovies.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/NadiMovies.domain.iml" />
     </modules>
   </component>
 </project>
