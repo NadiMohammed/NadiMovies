@@ -4,7 +4,7 @@
 * Clean Code
 * Unit Test
 * MVVM 
-* Databinding
+* ~~Databinding~~ -> ViewBinding
 * LiveData
 * ViewModel
 * Coroutines 
