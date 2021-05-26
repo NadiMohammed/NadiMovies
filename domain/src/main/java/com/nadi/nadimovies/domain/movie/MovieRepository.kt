@@ -1,11 +1,13 @@
 package com.nadi.nadimovies.domain.movie
 
-import com.nadi.nadimovies.domain.OperationResult
+import com.nadi.nadimovies.domain.Result
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 @ExperimentalCoroutinesApi
 interface MovieRepository {
-    suspend fun getNowPlaying(): OperationResult<Movie>
-//    suspend fun getNowPlaying(): Result<List<Movie>>
+    suspend fun getNowPlaying(): Result<Movie>
 
+    suspend fun create(movie: List<Movie.Result>)
+
+    suspend fun get(): List<Movie.Result>
 }

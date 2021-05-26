@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.nadi.nadimovies.domain.OperationResult
+import com.nadi.nadimovies.domain.Result
 import com.nadi.nadimovies.domain.trailer.Trailer
 import com.nadi.nadimovies.domain.trailer.movieGetNowPlaying
 import com.nadi.nadimovies.util.ApiStatus
@@ -30,12 +30,12 @@ class TrailerViewModel : ViewModel() {
         viewModelScope.launch {
             _status.value = ApiStatus.LOADING
             when (val result = movieGetNowPlaying(movieID)) {
-                is OperationResult.Success -> {
-                    _property.value = result.data
+                is Result.Success -> {
+                    _property.value = result.results!!
                     _status.value = ApiStatus.DONE
                 }
-                is OperationResult.Error -> {
-                    _onMessageError.postValue(result.exception)
+                is Result.Failed -> {
+                    _onMessageError.postValue(result.exception!!)
                     _status.value = ApiStatus.DONE
                 }
             }

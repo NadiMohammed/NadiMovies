@@ -14,7 +14,6 @@ import com.nadi.nadimovies.ui.home.HomeAdapter.MoviesViewType.PAGER
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 
-//@AndroidEntryPoint
 @ExperimentalCoroutinesApi
 class HomeFragment : Fragment(), HomeAdapter.OnMovieClickListener {
     private val viewModel: HomeViewModel by lazy {
@@ -24,7 +23,7 @@ class HomeFragment : Fragment(), HomeAdapter.OnMovieClickListener {
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
 
-    private lateinit var HomeAdapter: HomeAdapter
+    private lateinit var homeAdapter: HomeAdapter
     private lateinit var upcomingMoviesAdapter: HomeAdapter
 
     override fun onCreateView(
@@ -33,27 +32,33 @@ class HomeFragment : Fragment(), HomeAdapter.OnMovieClickListener {
     ): View {
         _binding = FragmentHomeBinding.inflate(inflater)
 
-        upcomingMoviesAdapter = HomeAdapter(PAGER, this)
-        HomeAdapter = HomeAdapter(NORMAL, this)
-
-        binding.nowPlayingRecycler.adapter = HomeAdapter
-        binding.viewPager.adapter = upcomingMoviesAdapter
-
-        viewModel.property.observe(viewLifecycleOwner, {
-            HomeAdapter.submitList(it.results)
-        })
-
-        viewModel.property.observe(viewLifecycleOwner, {
-            upcomingMoviesAdapter.submitList(it.results)
-        })
-
-
-//        binding.nowPlayingRecycler.adapter = HomeAdapter(HomeAdapter.OnClickListener {
-//            navigateToMovieDetails(it)
-//        })
+        init()
+        observe()
 
         return binding.root
     }
+
+    private fun init() {
+        upcomingMoviesAdapter = HomeAdapter(PAGER, this)
+        homeAdapter = HomeAdapter(NORMAL, this)
+
+        binding.nowPlayingRecycler.adapter = homeAdapter
+        binding.viewPager.adapter = upcomingMoviesAdapter
+    }
+
+    private fun observe() {
+        viewModel.offlineMovies.observe(viewLifecycleOwner, {
+            homeAdapter.submitList(it)
+            upcomingMoviesAdapter.submitList(it)
+        })
+
+        viewModel.property.observe(viewLifecycleOwner, {
+            homeAdapter.submitList(it.results)
+            upcomingMoviesAdapter.submitList(it.results)
+
+        })
+    }
+
 
     private fun navigateToMovieDetails(movie: Movie.Result) {
         this.findNavController()
@@ -63,7 +68,6 @@ class HomeFragment : Fragment(), HomeAdapter.OnMovieClickListener {
     override fun onMovieItemClick(movie: Movie.Result) {
         navigateToMovieDetails(movie)
     }
-
 
     override fun onDestroyView() {
         super.onDestroyView()

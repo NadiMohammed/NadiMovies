@@ -2,34 +2,31 @@ package com.nadi.data.repository
 
 import com.nadi.data.CallbackHandler
 import com.nadi.data.RetrofitBuilder
+import com.nadi.data.local.MainDatabase
+import com.nadi.data.local.MainDatabase.Companion.getInstance
+import com.nadi.data.local.asDatabaseModel
+import com.nadi.data.local.asDomainModel
 import com.nadi.data.network.MovieAPIs
-import com.nadi.nadimovies.domain.OperationResult
+import com.nadi.nadimovies.domain.Result
 import com.nadi.nadimovies.domain.movie.Movie
 import com.nadi.nadimovies.domain.movie.MovieRepository
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
-
-//class MovieRepositoryImplementer(private val movieAPIs: MovieAPIs = RetrofitBuilder().create(MovieAPIs::class.java)) :
-//    MovieRepository, CallbackHandler() {
-//
-//    override suspend fun getNowPlaying(): OperationResult<Movie> {
-//        return safeApiCall { movieAPIs.getNowPlayingMovies() }
-//    }
-//
-//}
-
 @ExperimentalCoroutinesApi
-//class MovieRepositoryImplementer @Inject constructor(private val movieAPIs: MovieAPIs) : MovieRepository, CallbackHandler() {
-//class MovieRepositoryImplementer @Inject constructor(private val movieAPIs: MovieAPIs) : MovieGateway,
 class MovieRepositoryImplementer(
-    private val movieAPIs: MovieAPIs = RetrofitBuilder().create(
-        MovieAPIs::class.java
-    )
+    private val database: MainDatabase = getInstance(),
+    private val movieAPIs: MovieAPIs = RetrofitBuilder().create(MovieAPIs::class.java)
 ) : MovieRepository, CallbackHandler() {
-
-    override suspend fun getNowPlaying(): OperationResult<Movie> {
+    override suspend fun getNowPlaying(): Result<Movie> {
         return safeApiCall { movieAPIs.getNowPlayingMovies() }
     }
+
+    override suspend fun create(movie: List<Movie.Result>) {
+        database.moviesDAO.insert(movie.asDatabaseModel())
+    }
+
+    override suspend fun get(): List<Movie.Result> = database.moviesDAO.get().asDomainModel()
+
 
 }
 

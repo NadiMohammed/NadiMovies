@@ -1,6 +1,6 @@
 package com.nadi.domain.trailer
 
-import com.nadi.nadimovies.domain.OperationResult
+import com.nadi.nadimovies.domain.Result
 import com.nadi.nadimovies.domain.trailer.Trailer
 import com.nadi.nadimovies.domain.trailer.TrailerRepository
 import com.nadi.nadimovies.domain.trailer.movieGetNowPlaying
@@ -20,9 +20,9 @@ internal class TrailerUseCaseKtTest {
 
             //Arrange
             val trailerRepository = object : TrailerRepository {
-                override suspend fun getTrailer(movieID: Int): OperationResult<Trailer> {
+                override suspend fun getTrailer(movieID: Int): Result<Trailer> {
                     invoked = true
-                    return OperationResult.Success(Trailer())
+                    return Result.Success(Trailer())
                 }
 
             }
@@ -47,11 +47,11 @@ internal class TrailerUseCaseKtTest {
                 val movieRepository = Mockito.mock(TrailerRepository::class.java)
 
                 Mockito.`when`(movieRepository.getTrailer(0))
-                    .thenReturn(OperationResult.Success(Trailer()))
+                    .thenReturn(Result.Success(Trailer()))
 
                 val result = movieRepository.getTrailer(0)
 
-                val expected = OperationResult.Success(Trailer())
+                val expected = Result.Success(Trailer())
 
                 Assertions.assertEquals(expected, result)
 

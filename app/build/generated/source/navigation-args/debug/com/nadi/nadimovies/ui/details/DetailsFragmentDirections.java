@@ -3,11 +3,11 @@ package com.nadi.nadimovies.ui.details;
 import android.os.Bundle;
 import android.os.Parcelable;
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.navigation.NavDirections;
 import com.nadi.nadimovies.R;
 import com.nadi.nadimovies.domain.movie.Movie;
 import java.io.Serializable;
+import java.lang.IllegalArgumentException;
 import java.lang.Object;
 import java.lang.Override;
 import java.lang.String;
@@ -25,7 +25,7 @@ public class DetailsFragmentDirections {
   }
 
   @NonNull
-  public static ActionDetailsFragmentSelf actionDetailsFragmentSelf(@Nullable Movie.Result movie) {
+  public static ActionDetailsFragmentSelf actionDetailsFragmentSelf(@NonNull Movie.Result movie) {
     return new ActionDetailsFragmentSelf(movie);
   }
 
@@ -107,13 +107,19 @@ public class DetailsFragmentDirections {
     private final HashMap arguments = new HashMap();
 
     @SuppressWarnings("unchecked")
-    private ActionDetailsFragmentSelf(@Nullable Movie.Result movie) {
+    private ActionDetailsFragmentSelf(@NonNull Movie.Result movie) {
+      if (movie == null) {
+        throw new IllegalArgumentException("Argument \"movie\" is marked as non-null but was passed a null value.");
+      }
       this.arguments.put("movie", movie);
     }
 
     @NonNull
     @SuppressWarnings("unchecked")
-    public ActionDetailsFragmentSelf setMovie(@Nullable Movie.Result movie) {
+    public ActionDetailsFragmentSelf setMovie(@NonNull Movie.Result movie) {
+      if (movie == null) {
+        throw new IllegalArgumentException("Argument \"movie\" is marked as non-null but was passed a null value.");
+      }
       this.arguments.put("movie", movie);
       return this;
     }
@@ -142,7 +148,7 @@ public class DetailsFragmentDirections {
     }
 
     @SuppressWarnings("unchecked")
-    @Nullable
+    @NonNull
     public Movie.Result getMovie() {
       return (Movie.Result) arguments.get("movie");
     }

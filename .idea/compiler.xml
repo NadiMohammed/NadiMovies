@@ -2,7 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
+      <module name="NadiMovies.app" target="11" />
       <module name="NadiMovies.core" target="1.8" />
+      <module name="NadiMovies.data" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

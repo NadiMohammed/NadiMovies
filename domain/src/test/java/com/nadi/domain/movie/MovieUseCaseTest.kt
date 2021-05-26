@@ -1,6 +1,6 @@
 package com.nadi.domain.movie
 
-import com.nadi.nadimovies.domain.OperationResult
+import com.nadi.nadimovies.domain.Result
 import com.nadi.nadimovies.domain.movie.Movie
 import com.nadi.nadimovies.domain.movie.MovieRepository
 import com.nadi.nadimovies.domain.movie.getNowPlayingMoviesUseCase
@@ -24,9 +24,9 @@ internal class MovieUseCaseTest {
 
                 //Arrange
                 val movieRepository = object : MovieRepository {
-                    override suspend fun getNowPlaying(): OperationResult<Movie> {
+                    override suspend fun getNowPlaying(): Result<Movie> {
                         invoked = true
-                        return OperationResult.Success(Movie())
+                        return Result.Success(Movie())
                     }
                 }
 
@@ -50,8 +50,8 @@ internal class MovieUseCaseTest {
 
                 //Arrange
                 val movieRepository = object : MovieRepository {
-                    override suspend fun getNowPlaying(): OperationResult<Movie> {
-                        return OperationResult.Success(Movie())
+                    override suspend fun getNowPlaying(): Result<Movie> {
+                        return Result.Success(Movie())
                     }
                 }
 
@@ -60,7 +60,7 @@ internal class MovieUseCaseTest {
                 val result = getNowPlayingMoviesUseCase(movieRepository)
 
                 //Assert
-                val expected = OperationResult.Success(Movie())
+                val expected = Result.Success(Movie())
 
                 assertEquals(expected, result)
             }
@@ -140,11 +140,11 @@ internal class MovieUseCaseTest {
 
 
                 Mockito.`when`(movieRepository.getNowPlaying())
-                    .thenReturn(OperationResult.Success(Movie()))
+                    .thenReturn(Result.Success(Movie()))
 
                 val result = movieRepository.getNowPlaying()
 
-                val expected = OperationResult.Success(Movie())
+                val expected = Result.Success(Movie())
 
                 // to know if it called or not or called how many time
                 Mockito.verify(movieRepository, Mockito.atLeastOnce()).getNowPlaying()

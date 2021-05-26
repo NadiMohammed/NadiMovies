@@ -3,7 +3,6 @@ package com.nadi.nadimovies.ui.details;
 import android.os.Bundle;
 import android.os.Parcelable;
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.navigation.NavArgs;
 import com.nadi.nadimovies.domain.movie.Movie;
 import java.io.Serializable;
@@ -37,6 +36,9 @@ public class DetailsFragmentArgs implements NavArgs {
       } else {
         throw new UnsupportedOperationException(Movie.Result.class.getName() + " must implement Parcelable or Serializable or must be an Enum.");
       }
+      if (movie == null) {
+        throw new IllegalArgumentException("Argument \"movie\" is marked as non-null but was passed a null value.");
+      }
       __result.arguments.put("movie", movie);
     } else {
       throw new IllegalArgumentException("Required argument \"movie\" is missing and does not have an android:defaultValue");
@@ -45,7 +47,7 @@ public class DetailsFragmentArgs implements NavArgs {
   }
 
   @SuppressWarnings("unchecked")
-  @Nullable
+  @NonNull
   public Movie.Result getMovie() {
     return (Movie.Result) arguments.get("movie");
   }
@@ -108,7 +110,10 @@ public class DetailsFragmentArgs implements NavArgs {
     }
 
     @SuppressWarnings("unchecked")
-    public Builder(@Nullable Movie.Result movie) {
+    public Builder(@NonNull Movie.Result movie) {
+      if (movie == null) {
+        throw new IllegalArgumentException("Argument \"movie\" is marked as non-null but was passed a null value.");
+      }
       this.arguments.put("movie", movie);
     }
 
@@ -120,13 +125,16 @@ public class DetailsFragmentArgs implements NavArgs {
 
     @NonNull
     @SuppressWarnings("unchecked")
-    public Builder setMovie(@Nullable Movie.Result movie) {
+    public Builder setMovie(@NonNull Movie.Result movie) {
+      if (movie == null) {
+        throw new IllegalArgumentException("Argument \"movie\" is marked as non-null but was passed a null value.");
+      }
       this.arguments.put("movie", movie);
       return this;
     }
 
     @SuppressWarnings("unchecked")
-    @Nullable
+    @NonNull
     public Movie.Result getMovie() {
       return (Movie.Result) arguments.get("movie");
     }

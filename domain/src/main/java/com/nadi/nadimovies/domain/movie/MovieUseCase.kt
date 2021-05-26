@@ -9,3 +9,9 @@ suspend fun getNowPlayingMoviesUseCase(movieGateway: MovieRepository = MovieRepo
     movieGateway.getNowPlaying()
 
 fun movieSortByName(movie: List<Movie.Result>) = movie.sortedBy { it.title }
+
+@ExperimentalCoroutinesApi
+suspend fun create(movie: List<Movie.Result>, movieGateway: MovieRepository = MovieRepository) = movieGateway.create(movie)
+
+@ExperimentalCoroutinesApi
+suspend fun get(movieGateway: MovieRepository = MovieRepository) = movieGateway.get()

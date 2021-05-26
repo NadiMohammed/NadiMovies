@@ -17,7 +17,7 @@ class DetailsFragment : Fragment(), SimilarAdapter.OnSimilarClickListener {
 
     private val viewModel: DetailsViewModel by lazy {
         val movie = DetailsFragmentArgs.fromBundle(requireArguments()).movie
-        val factory = MovieDetailsViewModelFactory(movie!!)
+        val factory = MovieDetailsViewModelFactory(movie)
         ViewModelProvider(this, factory).get(DetailsViewModel::class.java)
     }
 
@@ -26,16 +26,44 @@ class DetailsFragment : Fragment(), SimilarAdapter.OnSimilarClickListener {
 
     private lateinit var similarAdapter: SimilarAdapter
 
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentDetailsBinding.inflate(inflater)
 
+        init()
+        observe()
 
+        binding.playImg.setOnClickListener {
+            navigateToTrailer()
+        }
+
+        return binding.root
+    }
+
+    private fun init() {
+        similarAdapter = SimilarAdapter(this)
+
+        binding.similarMoviesRecycler.adapter = similarAdapter
+    }
+
+    private fun observe() {
+        viewModel.offlineMovies.observe(viewLifecycleOwner, {
+            similarAdapter.submitList(it)
+            applyData()
+        })
+
+        viewModel.property.observe(viewLifecycleOwner, {
+            similarAdapter.submitList(it.results)
+            applyData()
+        })
+    }
+
+    private fun applyData() {
         binding.apply {
             viewModel.movie.apply {
+
                 movieNameTxt.text = this.title
 
                 Glide.with(requireContext())
@@ -49,27 +77,19 @@ class DetailsFragment : Fragment(), SimilarAdapter.OnSimilarClickListener {
                 overviewTxt.text = this.overview
             }
         }
-
-        similarAdapter = SimilarAdapter(this)
-
-        binding.similarMoviesRecycler.adapter = similarAdapter
-
-        viewModel.property.observe(viewLifecycleOwner, {
-            similarAdapter.submitList(it.results)
-        })
-
-        binding.playImg.setOnClickListener {
-            this.findNavController()
-                .navigate(DetailsFragmentDirections.actionDetailsFragmentToTrailerFragment(viewModel.movie.id!!))
-        }
-
-        return binding.root
     }
+
 
     private fun navigateToMovieSimilarDetails(movie: Movie.Result) {
         this.findNavController()
             .navigate(DetailsFragmentDirections.actionDetailsFragmentSelf(movie))
     }
+
+    private fun navigateToTrailer() {
+        this.findNavController()
+            .navigate(DetailsFragmentDirections.actionDetailsFragmentToTrailerFragment(viewModel.movie.id!!))
+    }
+
 
     override fun onDestroyView() {
         super.onDestroyView()

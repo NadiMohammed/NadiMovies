@@ -40,7 +40,9 @@ class SimilarAdapter(
     class ViewHolder private constructor(private val binding: DesignSimilarBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(item: Movie.Result, clickListener: OnSimilarClickListener) {
+
             binding.movieNameTxt.text = item.title
+
             Glide.with(itemView)
                 .load("https://image.tmdb.org/t/p/w500${item.poster_path}")
                 .into(binding.movieImg)
@@ -49,6 +51,7 @@ class SimilarAdapter(
             itemView.setOnClickListener {
                 clickListener.onSimilarItemClick(item)
             }
+
         }
 
         companion object {

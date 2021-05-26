@@ -11,7 +11,6 @@ import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
-//@AndroidEntryPoint
 @ExperimentalCoroutinesApi
 class TrailerFragment : DialogFragment() {
     private val viewModel: TrailerViewModel by lazy {

@@ -6,7 +6,7 @@ import java.io.Serializable
 data class Movie(
     val dates: Dates? = Dates(),
     val page: Int? = 0,
-    val results: List<Result?>? = listOf(),
+    val results: List<Result> = listOf(),
     val total_pages: Int? = 0,
     val total_results: Int? = 0
 ) : Serializable {

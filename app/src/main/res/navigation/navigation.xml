@@ -23,10 +23,6 @@
         android:name="com.nadi.nadimovies.ui.details.DetailsFragment"
         android:label="DetailsFragment"
         tools:layout="@layout/fragment_details">
-        <argument
-            android:name="movie"
-            app:argType="com.nadi.nadimovies.domain.movie.Movie$Result"
-            app:nullable="true" />
         <action
             android:id="@+id/action_detailsFragment_to_trailerFragment"
             app:destination="@id/trailerFragment"
@@ -41,6 +37,9 @@
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="movie"
+            app:argType="com.nadi.nadimovies.domain.movie.Movie$Result" />
     </fragment>
 
     <dialog

@@ -5,7 +5,7 @@
     "kind": "Directory"
   },
   "applicationId": "com.nadi.nadi",
-  "variantName": "processDebugResources",
+  "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",

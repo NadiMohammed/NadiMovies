@@ -1,309 +1,322 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:2:1-24:12
-MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\egyno\.gradle\caches\transforms-3\bdefb4fe73076a22f115cea7d7bcab3a\transformed\jetified-viewbinding-4.1.3\AndroidManifest.xml:17:1-22:12
-MERGED from [:data] C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\data\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\1d59a291b64463ea629d3c908bddc48d\transformed\navigation-fragment-ktx-2.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\egyno\.gradle\caches\transforms-3\586e1f4f210c38242d89762e75ce6fc5\transformed\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\c8cd3333744e8d067780c440ddfe6cb4\transformed\navigation-ui-ktx-2.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\73f860b614aa870c7dbeca4354343adc\transformed\navigation-runtime-ktx-2.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\516b9a5479e0c9bcfea2414c6e5292e7\transformed\navigation-common-ktx-2.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\395ede0f06a38106ce8d26aee01e11a3\transformed\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\egyno\.gradle\caches\transforms-3\465de9f4fc1fa95fc317d1007a8e8030\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\09f49165bd6ce17b7d8a43255f211fe0\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\61c21d68e25f2df6e3322e25690f9390\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\85de06d1ac7c81383750e68a78c6ec37\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\25641fa2d50b079d75abad7bee582383\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\egyno\.gradle\caches\transforms-3\902ebe41e8b8208db212b3e328443e04\transformed\jetified-core-10.0.5\AndroidManifest.xml:2:1-14:12
-MERGED from [androidx.navigation:navigation-ui:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\f157aecb4d12a3da32eae15946568b2f\transformed\navigation-ui-2.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.3.0] C:\Users\egyno\.gradle\caches\transforms-3\a66d95b4b0a5a62524ed2412c7aa849a\transformed\material-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\egyno\.gradle\caches\transforms-3\23aaf69f959da1003c9957be69927bb8\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\egyno\.gradle\caches\transforms-3\6608f6f48cb1d2e63b7c9f3c23423db5\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\ff92db4dbe10bf79343a5153785c0de6\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\egyno\.gradle\caches\transforms-3\0f0e11b401cf781bdcecdc5be4049ddb\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\8c99755c8c149d8afab891f746b98731\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03] C:\Users\egyno\.gradle\caches\transforms-3\6000d22f20165ee414c9343046c5d6b4\transformed\jetified-hilt-lifecycle-viewmodel-1.0.0-alpha03\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.dagger:hilt-android:2.33-beta] C:\Users\egyno\.gradle\caches\transforms-3\2951b1a2ec332faca7bafb35f39be973\transformed\jetified-hilt-android-2.33-beta\AndroidManifest.xml:16:1-19:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\32382ab35b32dfde7b98591a80c58c55\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-fragment:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\eef406e20476069963a2b575de4dcfc5\transformed\navigation-fragment-2.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\egyno\.gradle\caches\transforms-3\5f7b38de85644747f3cf2dba42610a9e\transformed\fragment-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\802be0f753812a2541abb452290a3844\transformed\navigation-runtime-2.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.0] C:\Users\egyno\.gradle\caches\transforms-3\0d4307bd196f78df6f1e7443416fc4c7\transformed\jetified-activity-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\942041e8058f79a14cef7159e9fd49c8\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\egyno\.gradle\caches\transforms-3\e9fdd5a3dbac35e0b7991446457eb072\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\d9cfe4c89b88a901c0744a52e4205ad7\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\0dc3a1020ae500e0142c042306b4dac7\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\e8fe551438683f3bbedc2c6f10abc12e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\0f3018f4603b760204523b2407f263ee\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\7328f12bc8c2949c8ea7566a0c83f9f0\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\0c034512c9801b4574e6801d1b946893\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\45557d6d6f58fbec7144bef3f8153921\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\844b506a21c3dc3567c5a213b3ca9adc\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\5b49f6637bd47c3815664ac7003eae32\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\9b08e3b957d547fe38d557dea77d0c79\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\5515a1801bfeaed9be279502b4230b95\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\255fc9c00ac34c68195093cd7b4fa9e4\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\176ff69d0e4f0361157ace2c40a58c6c\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\egyno\.gradle\caches\transforms-3\0b2b16e6b0392d5520935791cdc6878f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\9dc716d9f04d6c45d374e62085b81ce7\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.3.0] C:\Users\egyno\.gradle\caches\transforms-3\b01c1be1753f3ba9b6bae92237e116dc\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\8538b55a709d33dfa0a2feb25617bc70\transformed\navigation-common-2.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.3.2] C:\Users\egyno\.gradle\caches\transforms-3\6d5fd5dec851abd0fed482e9683cabd0\transformed\core-1.3.2\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\c124e95ad1f6a3c5c663b38cc7ce1b29\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\egyno\.gradle\caches\transforms-3\938579066bcc65cad5f777fd1c6ac635\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\egyno\.gradle\caches\transforms-3\15873df7aca08782e0c940e93b28d46e\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\e6d3c2a9809e6d35bc114a8aa67c27a1\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\0fb646224890b8bdafe134a691db99dc\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\e64f7730522a4a5ca5c28c5c5cc6c284\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\17b8ca81371f0e226a23036576a60837\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\egyno\.gradle\caches\transforms-3\01ac8b55c1306c5af1be7ead9fa1c4bc\transformed\lifecycle-runtime-2.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\egyno\.gradle\caches\transforms-3\0e757495c4244cb9f656b0448b052f39\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\2b8aa716957b584ecf1ad3f2d489366d\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\1b870a2f1b8b12eb23a8eafc677b7e44\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\6ef2579f31e0ee6322b215d74e0ad63c\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\1f89aa1826e6e50d37a681368457fb54\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\c81808bbb3f83dde9e9aa12d446a5197\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\4392ed1044db12c7ea747f59dbf639e4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\68d708a451ed4222b2a84fa3a4e5c14a\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\9be57f6f01426ecc24845db942ccb3c2\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\8b11589f31c8f386e05dacda9be77378\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\8d7994958d802fe0face5a3e63cb04f9\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.dagger:dagger-lint-aar:2.33] C:\Users\egyno\.gradle\caches\transforms-3\06c0aa94874bb769ecda2476320b6235\transformed\jetified-dagger-lint-aar-2.33\AndroidManifest.xml:16:1-19:12
-INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\Nadi\.gradle\caches\transforms-3\a38472ad74c50267f3cf75fe59046287\transformed\jetified-viewbinding-4.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [:data] C:\Users\Nadi\Desktop\NadiMoviesDataBase\data\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\eec7e7b4855e102344347d374dacf03f\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Nadi\.gradle\caches\transforms-3\242dff3a659d745dfcb4ff7ade545639\transformed\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\4b81a938e62106d1f839860aa3be3da0\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\fceb9f7232ba785d8ff1ae55810233cf\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\3abf2433af9532d1c4172f9f0897238a\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\6c6a89d3cc4f7c20cb125e0df25f909e\transformed\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\Nadi\.gradle\caches\transforms-3\f9dac91809786895e4eb0461f96f8daf\transformed\jetified-core-ktx-1.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\07511c69efac9933e6df34fb969204a0\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\91a963a58b3c78620b04773b8ab1b86b\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\b08be2b75acc3ba9dba9d020dee4850b\transformed\jetified-room-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\bced02a068d1425e44ecd7136eb4bac9\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\df38a8738247ae763efbeea842c6ba7a\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\Nadi\.gradle\caches\transforms-3\338405d3201d157b8d63f838f7da8fe4\transformed\jetified-core-10.0.5\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\b0360eb97ccb4b49c439db16c9ed1caf\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\4f2fff0c43215343cb7abd4621cc17a0\transformed\material-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Nadi\.gradle\caches\transforms-3\770524f9d7971f4b2be60bb45ab70b14\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\1c0bd335e4b1d20943e72e164155838e\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\fb34654e347bd7c274fad76c03a4740f\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Nadi\.gradle\caches\transforms-3\01ced2332406cdd70ae7036ccb48b073\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\5d8a4c70772c1e1ebf0007b4a53ad40e\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\96bcee0ddbc6af0b3c7a2212d4e731a7\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\b943295c5218e897a6e087854dac2555\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Nadi\.gradle\caches\transforms-3\9c37f2206eee15da4183078186d73017\transformed\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\a5211894199517dd478ed279957a87d8\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Nadi\.gradle\caches\transforms-3\c731f1d20deb6d7adc3c0c38768a6d3a\transformed\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\51921c62bf06bc5b60239ff27a42559e\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\072bf06f3d343a46b986874e9ac508f5\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\6e59e18acace3c0c5c622b0e1d2c538b\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\effa4531b33cdcb6bd8d5be2311f5c0e\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\81d10bdfbd3383047508a75d259e897c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\d3da05c5d1318b2baa72ac99b46bef26\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\254c8cf2327d65f6876825cd66fd053b\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\514a74863998d45cbdcc91dffeea2ac6\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\7faedef078c9def2afa29732838f7844\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\e0e85c6bc6ac1d0f5ef4679ca4fd5bf0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\03273556097eb8f5dae7ec681addb954\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\2353b5b559d4650554b9781c8fee7e63\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\eacc1ad7dfeae987821d2b33fd93c4d2\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\5f4b61cf5e1d5e04561f70da721bb128\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\ed2d46ebe358242b8dd98a1c63e1f117\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Nadi\.gradle\caches\transforms-3\1301d7b3582a2f1b8e8d3665a3963586\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\b4d8d3f7dc65c2f14ab2c42457cd262d\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\c2103a6717dbd3d705bb5b721be0e190\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\5dcbdf857c3b24cd0c09659fc85a5b4b\transformed\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0] C:\Users\Nadi\.gradle\caches\transforms-3\6e874290d051cc75f1be610f8a249452\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\346b3001c56d8c2750787d63c2fec0c7\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\a651f4fbba8432bfe6b4c0fede458b49\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\e5963211d3103e660e081473cc4d2aa3\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\ebeed668ceec22946406fb5cb2ca5129\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\3319e9946a5e91894ff253ae06885902\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Nadi\.gradle\caches\transforms-3\7d15815a02f50929ddafc367bbdba1a9\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\9f2c70d3017ca99865cd38c45f19d034\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\18a27956e476b14db0b4a50a8156a33b\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\d5c3d7eee667a43e188aca8d989c07ae\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\c2c2739e74c74b5a6f213653cbb150d5\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nadi\.gradle\caches\transforms-3\c3123de433b3c5e0cab0ff7ea5ac4472\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\867ff5768f3decfbc66e1a3972b6004c\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\4507699f8444c6003d52e05499bc45f3\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\33cf8713f090a4b11ce4c0c340a94fb4\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\c3964c0f343f7722ab27db109a2329a9\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\b320ee77faa2c44cbc713d1a6310d11b\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\cceef8b51eacc60dc2f2d26e16c5378e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\092a81fa38cabee024f398b0ebc98689\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\ce0bde6273f3a2bc8642dbb9f76ab772\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\3db389dbf0a1e952b2eaf63564df0ce7\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:3:5-34
-		INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:2:1-24:12
-		INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:2:1-24:12
-		INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:5:5-67
-MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\egyno\.gradle\caches\transforms-3\902ebe41e8b8208db212b3e328443e04\transformed\jetified-core-10.0.5\AndroidManifest.xml:11:5-67
-MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\egyno\.gradle\caches\transforms-3\902ebe41e8b8208db212b3e328443e04\transformed\jetified-core-10.0.5\AndroidManifest.xml:11:5-67
+ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\Nadi\.gradle\caches\transforms-3\338405d3201d157b8d63f838f7da8fe4\transformed\jetified-core-10.0.5\AndroidManifest.xml:11:5-67
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\Nadi\.gradle\caches\transforms-3\338405d3201d157b8d63f838f7da8fe4\transformed\jetified-core-10.0.5\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:7:5-22:19
-MERGED from [com.google.android.material:material:1.3.0] C:\Users\egyno\.gradle\caches\transforms-3\a66d95b4b0a5a62524ed2412c7aa849a\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.3.0] C:\Users\egyno\.gradle\caches\transforms-3\a66d95b4b0a5a62524ed2412c7aa849a\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\egyno\.gradle\caches\transforms-3\23aaf69f959da1003c9957be69927bb8\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\egyno\.gradle\caches\transforms-3\23aaf69f959da1003c9957be69927bb8\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\egyno\.gradle\caches\transforms-3\0f0e11b401cf781bdcecdc5be4049ddb\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\egyno\.gradle\caches\transforms-3\0f0e11b401cf781bdcecdc5be4049ddb\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\8c99755c8c149d8afab891f746b98731\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\8c99755c8c149d8afab891f746b98731\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.core:core:1.3.2] C:\Users\egyno\.gradle\caches\transforms-3\6d5fd5dec851abd0fed482e9683cabd0\transformed\core-1.3.2\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.2] C:\Users\egyno\.gradle\caches\transforms-3\6d5fd5dec851abd0fed482e9683cabd0\transformed\core-1.3.2\AndroidManifest.xml:24:5-89
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\egyno\.gradle\caches\transforms-3\938579066bcc65cad5f777fd1c6ac635\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\egyno\.gradle\caches\transforms-3\938579066bcc65cad5f777fd1c6ac635\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\e64f7730522a4a5ca5c28c5c5cc6c284\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\e64f7730522a4a5ca5c28c5c5cc6c284\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\6ef2579f31e0ee6322b215d74e0ad63c\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\6ef2579f31e0ee6322b215d74e0ad63c\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:7:5-22:19
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\4f2fff0c43215343cb7abd4621cc17a0\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\4f2fff0c43215343cb7abd4621cc17a0\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Nadi\.gradle\caches\transforms-3\770524f9d7971f4b2be60bb45ab70b14\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Nadi\.gradle\caches\transforms-3\770524f9d7971f4b2be60bb45ab70b14\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Nadi\.gradle\caches\transforms-3\01ced2332406cdd70ae7036ccb48b073\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Nadi\.gradle\caches\transforms-3\01ced2332406cdd70ae7036ccb48b073\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\5d8a4c70772c1e1ebf0007b4a53ad40e\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\5d8a4c70772c1e1ebf0007b4a53ad40e\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.core:core:1.5.0] C:\Users\Nadi\.gradle\caches\transforms-3\6e874290d051cc75f1be610f8a249452\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] C:\Users\Nadi\.gradle\caches\transforms-3\6e874290d051cc75f1be610f8a249452\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Nadi\.gradle\caches\transforms-3\7d15815a02f50929ddafc367bbdba1a9\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Nadi\.gradle\caches\transforms-3\7d15815a02f50929ddafc367bbdba1a9\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nadi\.gradle\caches\transforms-3\c3123de433b3c5e0cab0ff7ea5ac4472\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nadi\.gradle\caches\transforms-3\c3123de433b3c5e0cab0ff7ea5ac4472\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.2] C:\Users\egyno\.gradle\caches\transforms-3\6d5fd5dec851abd0fed482e9683cabd0\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.5.0] C:\Users\Nadi\.gradle\caches\transforms-3\6e874290d051cc75f1be610f8a249452\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:14:9-48
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:14:9-48
 	android:name
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:8:9-40
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:8:9-40
 activity#com.nadi.nadimovies.ui.MainActivity
-ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:15:19-50
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:15:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml:19:27-74
 uses-sdk
-INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
-MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\egyno\.gradle\caches\transforms-3\bdefb4fe73076a22f115cea7d7bcab3a\transformed\jetified-viewbinding-4.1.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\egyno\.gradle\caches\transforms-3\bdefb4fe73076a22f115cea7d7bcab3a\transformed\jetified-viewbinding-4.1.3\AndroidManifest.xml:20:5-44
-MERGED from [:data] C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\data\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:data] C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\data\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\1d59a291b64463ea629d3c908bddc48d\transformed\navigation-fragment-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\1d59a291b64463ea629d3c908bddc48d\transformed\navigation-fragment-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\egyno\.gradle\caches\transforms-3\586e1f4f210c38242d89762e75ce6fc5\transformed\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\egyno\.gradle\caches\transforms-3\586e1f4f210c38242d89762e75ce6fc5\transformed\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\c8cd3333744e8d067780c440ddfe6cb4\transformed\navigation-ui-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\c8cd3333744e8d067780c440ddfe6cb4\transformed\navigation-ui-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\73f860b614aa870c7dbeca4354343adc\transformed\navigation-runtime-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\73f860b614aa870c7dbeca4354343adc\transformed\navigation-runtime-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\516b9a5479e0c9bcfea2414c6e5292e7\transformed\navigation-common-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\516b9a5479e0c9bcfea2414c6e5292e7\transformed\navigation-common-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\395ede0f06a38106ce8d26aee01e11a3\transformed\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\395ede0f06a38106ce8d26aee01e11a3\transformed\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\egyno\.gradle\caches\transforms-3\465de9f4fc1fa95fc317d1007a8e8030\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\egyno\.gradle\caches\transforms-3\465de9f4fc1fa95fc317d1007a8e8030\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\09f49165bd6ce17b7d8a43255f211fe0\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\09f49165bd6ce17b7d8a43255f211fe0\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\61c21d68e25f2df6e3322e25690f9390\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\61c21d68e25f2df6e3322e25690f9390\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\85de06d1ac7c81383750e68a78c6ec37\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\85de06d1ac7c81383750e68a78c6ec37\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\25641fa2d50b079d75abad7bee582383\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\25641fa2d50b079d75abad7bee582383\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\egyno\.gradle\caches\transforms-3\902ebe41e8b8208db212b3e328443e04\transformed\jetified-core-10.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\egyno\.gradle\caches\transforms-3\902ebe41e8b8208db212b3e328443e04\transformed\jetified-core-10.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.navigation:navigation-ui:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\f157aecb4d12a3da32eae15946568b2f\transformed\navigation-ui-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\f157aecb4d12a3da32eae15946568b2f\transformed\navigation-ui-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.3.0] C:\Users\egyno\.gradle\caches\transforms-3\a66d95b4b0a5a62524ed2412c7aa849a\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.3.0] C:\Users\egyno\.gradle\caches\transforms-3\a66d95b4b0a5a62524ed2412c7aa849a\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\egyno\.gradle\caches\transforms-3\23aaf69f959da1003c9957be69927bb8\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\egyno\.gradle\caches\transforms-3\23aaf69f959da1003c9957be69927bb8\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\egyno\.gradle\caches\transforms-3\6608f6f48cb1d2e63b7c9f3c23423db5\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\egyno\.gradle\caches\transforms-3\6608f6f48cb1d2e63b7c9f3c23423db5\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\ff92db4dbe10bf79343a5153785c0de6\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\ff92db4dbe10bf79343a5153785c0de6\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\egyno\.gradle\caches\transforms-3\0f0e11b401cf781bdcecdc5be4049ddb\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\egyno\.gradle\caches\transforms-3\0f0e11b401cf781bdcecdc5be4049ddb\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\8c99755c8c149d8afab891f746b98731\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\8c99755c8c149d8afab891f746b98731\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03] C:\Users\egyno\.gradle\caches\transforms-3\6000d22f20165ee414c9343046c5d6b4\transformed\jetified-hilt-lifecycle-viewmodel-1.0.0-alpha03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03] C:\Users\egyno\.gradle\caches\transforms-3\6000d22f20165ee414c9343046c5d6b4\transformed\jetified-hilt-lifecycle-viewmodel-1.0.0-alpha03\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.dagger:hilt-android:2.33-beta] C:\Users\egyno\.gradle\caches\transforms-3\2951b1a2ec332faca7bafb35f39be973\transformed\jetified-hilt-android-2.33-beta\AndroidManifest.xml:18:3-42
-MERGED from [com.google.dagger:hilt-android:2.33-beta] C:\Users\egyno\.gradle\caches\transforms-3\2951b1a2ec332faca7bafb35f39be973\transformed\jetified-hilt-android-2.33-beta\AndroidManifest.xml:18:3-42
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\32382ab35b32dfde7b98591a80c58c55\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\32382ab35b32dfde7b98591a80c58c55\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\eef406e20476069963a2b575de4dcfc5\transformed\navigation-fragment-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\eef406e20476069963a2b575de4dcfc5\transformed\navigation-fragment-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\egyno\.gradle\caches\transforms-3\5f7b38de85644747f3cf2dba42610a9e\transformed\fragment-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\egyno\.gradle\caches\transforms-3\5f7b38de85644747f3cf2dba42610a9e\transformed\fragment-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\802be0f753812a2541abb452290a3844\transformed\navigation-runtime-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\802be0f753812a2541abb452290a3844\transformed\navigation-runtime-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.0] C:\Users\egyno\.gradle\caches\transforms-3\0d4307bd196f78df6f1e7443416fc4c7\transformed\jetified-activity-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.0] C:\Users\egyno\.gradle\caches\transforms-3\0d4307bd196f78df6f1e7443416fc4c7\transformed\jetified-activity-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\942041e8058f79a14cef7159e9fd49c8\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\942041e8058f79a14cef7159e9fd49c8\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\egyno\.gradle\caches\transforms-3\e9fdd5a3dbac35e0b7991446457eb072\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\egyno\.gradle\caches\transforms-3\e9fdd5a3dbac35e0b7991446457eb072\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\d9cfe4c89b88a901c0744a52e4205ad7\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\d9cfe4c89b88a901c0744a52e4205ad7\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\0dc3a1020ae500e0142c042306b4dac7\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\0dc3a1020ae500e0142c042306b4dac7\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\e8fe551438683f3bbedc2c6f10abc12e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\e8fe551438683f3bbedc2c6f10abc12e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\0f3018f4603b760204523b2407f263ee\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\0f3018f4603b760204523b2407f263ee\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\7328f12bc8c2949c8ea7566a0c83f9f0\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\7328f12bc8c2949c8ea7566a0c83f9f0\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\0c034512c9801b4574e6801d1b946893\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\0c034512c9801b4574e6801d1b946893\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\45557d6d6f58fbec7144bef3f8153921\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\45557d6d6f58fbec7144bef3f8153921\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\844b506a21c3dc3567c5a213b3ca9adc\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\844b506a21c3dc3567c5a213b3ca9adc\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\5b49f6637bd47c3815664ac7003eae32\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\5b49f6637bd47c3815664ac7003eae32\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\9b08e3b957d547fe38d557dea77d0c79\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\9b08e3b957d547fe38d557dea77d0c79\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\5515a1801bfeaed9be279502b4230b95\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\5515a1801bfeaed9be279502b4230b95\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\255fc9c00ac34c68195093cd7b4fa9e4\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\255fc9c00ac34c68195093cd7b4fa9e4\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\176ff69d0e4f0361157ace2c40a58c6c\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\176ff69d0e4f0361157ace2c40a58c6c\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\egyno\.gradle\caches\transforms-3\0b2b16e6b0392d5520935791cdc6878f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\egyno\.gradle\caches\transforms-3\0b2b16e6b0392d5520935791cdc6878f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\9dc716d9f04d6c45d374e62085b81ce7\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\9dc716d9f04d6c45d374e62085b81ce7\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] C:\Users\egyno\.gradle\caches\transforms-3\b01c1be1753f3ba9b6bae92237e116dc\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] C:\Users\egyno\.gradle\caches\transforms-3\b01c1be1753f3ba9b6bae92237e116dc\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\8538b55a709d33dfa0a2feb25617bc70\transformed\navigation-common-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.3.4] C:\Users\egyno\.gradle\caches\transforms-3\8538b55a709d33dfa0a2feb25617bc70\transformed\navigation-common-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.2] C:\Users\egyno\.gradle\caches\transforms-3\6d5fd5dec851abd0fed482e9683cabd0\transformed\core-1.3.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.2] C:\Users\egyno\.gradle\caches\transforms-3\6d5fd5dec851abd0fed482e9683cabd0\transformed\core-1.3.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\c124e95ad1f6a3c5c663b38cc7ce1b29\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\c124e95ad1f6a3c5c663b38cc7ce1b29\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\egyno\.gradle\caches\transforms-3\938579066bcc65cad5f777fd1c6ac635\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\egyno\.gradle\caches\transforms-3\938579066bcc65cad5f777fd1c6ac635\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\egyno\.gradle\caches\transforms-3\15873df7aca08782e0c940e93b28d46e\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\egyno\.gradle\caches\transforms-3\15873df7aca08782e0c940e93b28d46e\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\e6d3c2a9809e6d35bc114a8aa67c27a1\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\e6d3c2a9809e6d35bc114a8aa67c27a1\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\0fb646224890b8bdafe134a691db99dc\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\0fb646224890b8bdafe134a691db99dc\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\e64f7730522a4a5ca5c28c5c5cc6c284\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\e64f7730522a4a5ca5c28c5c5cc6c284\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\17b8ca81371f0e226a23036576a60837\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\17b8ca81371f0e226a23036576a60837\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\egyno\.gradle\caches\transforms-3\01ac8b55c1306c5af1be7ead9fa1c4bc\transformed\lifecycle-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\egyno\.gradle\caches\transforms-3\01ac8b55c1306c5af1be7ead9fa1c4bc\transformed\lifecycle-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\egyno\.gradle\caches\transforms-3\0e757495c4244cb9f656b0448b052f39\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\egyno\.gradle\caches\transforms-3\0e757495c4244cb9f656b0448b052f39\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\2b8aa716957b584ecf1ad3f2d489366d\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\2b8aa716957b584ecf1ad3f2d489366d\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\1b870a2f1b8b12eb23a8eafc677b7e44\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\egyno\.gradle\caches\transforms-3\1b870a2f1b8b12eb23a8eafc677b7e44\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\6ef2579f31e0ee6322b215d74e0ad63c\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\egyno\.gradle\caches\transforms-3\6ef2579f31e0ee6322b215d74e0ad63c\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\1f89aa1826e6e50d37a681368457fb54\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\1f89aa1826e6e50d37a681368457fb54\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\c81808bbb3f83dde9e9aa12d446a5197\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\c81808bbb3f83dde9e9aa12d446a5197\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\4392ed1044db12c7ea747f59dbf639e4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\4392ed1044db12c7ea747f59dbf639e4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\68d708a451ed4222b2a84fa3a4e5c14a\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\68d708a451ed4222b2a84fa3a4e5c14a\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\9be57f6f01426ecc24845db942ccb3c2\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\9be57f6f01426ecc24845db942ccb3c2\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\8b11589f31c8f386e05dacda9be77378\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\8b11589f31c8f386e05dacda9be77378\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\8d7994958d802fe0face5a3e63cb04f9\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\egyno\.gradle\caches\transforms-3\8d7994958d802fe0face5a3e63cb04f9\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.dagger:dagger-lint-aar:2.33] C:\Users\egyno\.gradle\caches\transforms-3\06c0aa94874bb769ecda2476320b6235\transformed\jetified-dagger-lint-aar-2.33\AndroidManifest.xml:18:3-42
-MERGED from [com.google.dagger:dagger-lint-aar:2.33] C:\Users\egyno\.gradle\caches\transforms-3\06c0aa94874bb769ecda2476320b6235\transformed\jetified-dagger-lint-aar-2.33\AndroidManifest.xml:18:3-42
-INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\Nadi\.gradle\caches\transforms-3\a38472ad74c50267f3cf75fe59046287\transformed\jetified-viewbinding-4.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\Nadi\.gradle\caches\transforms-3\a38472ad74c50267f3cf75fe59046287\transformed\jetified-viewbinding-4.2.1\AndroidManifest.xml:20:5-44
+MERGED from [:data] C:\Users\Nadi\Desktop\NadiMoviesDataBase\data\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:data] C:\Users\Nadi\Desktop\NadiMoviesDataBase\data\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\eec7e7b4855e102344347d374dacf03f\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\eec7e7b4855e102344347d374dacf03f\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Nadi\.gradle\caches\transforms-3\242dff3a659d745dfcb4ff7ade545639\transformed\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Nadi\.gradle\caches\transforms-3\242dff3a659d745dfcb4ff7ade545639\transformed\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\4b81a938e62106d1f839860aa3be3da0\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\4b81a938e62106d1f839860aa3be3da0\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\fceb9f7232ba785d8ff1ae55810233cf\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\fceb9f7232ba785d8ff1ae55810233cf\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\3abf2433af9532d1c4172f9f0897238a\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\3abf2433af9532d1c4172f9f0897238a\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\6c6a89d3cc4f7c20cb125e0df25f909e\transformed\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\6c6a89d3cc4f7c20cb125e0df25f909e\transformed\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\Nadi\.gradle\caches\transforms-3\f9dac91809786895e4eb0461f96f8daf\transformed\jetified-core-ktx-1.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\Nadi\.gradle\caches\transforms-3\f9dac91809786895e4eb0461f96f8daf\transformed\jetified-core-ktx-1.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\07511c69efac9933e6df34fb969204a0\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\07511c69efac9933e6df34fb969204a0\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\91a963a58b3c78620b04773b8ab1b86b\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\91a963a58b3c78620b04773b8ab1b86b\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\b08be2b75acc3ba9dba9d020dee4850b\transformed\jetified-room-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\b08be2b75acc3ba9dba9d020dee4850b\transformed\jetified-room-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\bced02a068d1425e44ecd7136eb4bac9\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\bced02a068d1425e44ecd7136eb4bac9\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\df38a8738247ae763efbeea842c6ba7a\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\df38a8738247ae763efbeea842c6ba7a\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\Nadi\.gradle\caches\transforms-3\338405d3201d157b8d63f838f7da8fe4\transformed\jetified-core-10.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\Nadi\.gradle\caches\transforms-3\338405d3201d157b8d63f838f7da8fe4\transformed\jetified-core-10.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\b0360eb97ccb4b49c439db16c9ed1caf\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\b0360eb97ccb4b49c439db16c9ed1caf\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\4f2fff0c43215343cb7abd4621cc17a0\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\4f2fff0c43215343cb7abd4621cc17a0\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Nadi\.gradle\caches\transforms-3\770524f9d7971f4b2be60bb45ab70b14\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Nadi\.gradle\caches\transforms-3\770524f9d7971f4b2be60bb45ab70b14\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\1c0bd335e4b1d20943e72e164155838e\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\1c0bd335e4b1d20943e72e164155838e\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\fb34654e347bd7c274fad76c03a4740f\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\fb34654e347bd7c274fad76c03a4740f\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Nadi\.gradle\caches\transforms-3\01ced2332406cdd70ae7036ccb48b073\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Nadi\.gradle\caches\transforms-3\01ced2332406cdd70ae7036ccb48b073\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\5d8a4c70772c1e1ebf0007b4a53ad40e\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\5d8a4c70772c1e1ebf0007b4a53ad40e\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\96bcee0ddbc6af0b3c7a2212d4e731a7\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\96bcee0ddbc6af0b3c7a2212d4e731a7\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\b943295c5218e897a6e087854dac2555\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\b943295c5218e897a6e087854dac2555\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Nadi\.gradle\caches\transforms-3\9c37f2206eee15da4183078186d73017\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Nadi\.gradle\caches\transforms-3\9c37f2206eee15da4183078186d73017\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\a5211894199517dd478ed279957a87d8\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\a5211894199517dd478ed279957a87d8\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Nadi\.gradle\caches\transforms-3\c731f1d20deb6d7adc3c0c38768a6d3a\transformed\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Nadi\.gradle\caches\transforms-3\c731f1d20deb6d7adc3c0c38768a6d3a\transformed\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\51921c62bf06bc5b60239ff27a42559e\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\51921c62bf06bc5b60239ff27a42559e\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\072bf06f3d343a46b986874e9ac508f5\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\072bf06f3d343a46b986874e9ac508f5\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\6e59e18acace3c0c5c622b0e1d2c538b\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\6e59e18acace3c0c5c622b0e1d2c538b\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\effa4531b33cdcb6bd8d5be2311f5c0e\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\effa4531b33cdcb6bd8d5be2311f5c0e\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\81d10bdfbd3383047508a75d259e897c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\81d10bdfbd3383047508a75d259e897c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\d3da05c5d1318b2baa72ac99b46bef26\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\d3da05c5d1318b2baa72ac99b46bef26\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\254c8cf2327d65f6876825cd66fd053b\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\254c8cf2327d65f6876825cd66fd053b\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\514a74863998d45cbdcc91dffeea2ac6\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\514a74863998d45cbdcc91dffeea2ac6\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\7faedef078c9def2afa29732838f7844\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\7faedef078c9def2afa29732838f7844\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\e0e85c6bc6ac1d0f5ef4679ca4fd5bf0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\e0e85c6bc6ac1d0f5ef4679ca4fd5bf0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\03273556097eb8f5dae7ec681addb954\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\03273556097eb8f5dae7ec681addb954\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\2353b5b559d4650554b9781c8fee7e63\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\2353b5b559d4650554b9781c8fee7e63\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\eacc1ad7dfeae987821d2b33fd93c4d2\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\eacc1ad7dfeae987821d2b33fd93c4d2\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\5f4b61cf5e1d5e04561f70da721bb128\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\5f4b61cf5e1d5e04561f70da721bb128\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\ed2d46ebe358242b8dd98a1c63e1f117\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\ed2d46ebe358242b8dd98a1c63e1f117\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Nadi\.gradle\caches\transforms-3\1301d7b3582a2f1b8e8d3665a3963586\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Nadi\.gradle\caches\transforms-3\1301d7b3582a2f1b8e8d3665a3963586\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\b4d8d3f7dc65c2f14ab2c42457cd262d\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\b4d8d3f7dc65c2f14ab2c42457cd262d\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\c2103a6717dbd3d705bb5b721be0e190\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\c2103a6717dbd3d705bb5b721be0e190\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\5dcbdf857c3b24cd0c09659fc85a5b4b\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Nadi\.gradle\caches\transforms-3\5dcbdf857c3b24cd0c09659fc85a5b4b\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\Nadi\.gradle\caches\transforms-3\6e874290d051cc75f1be610f8a249452\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\Nadi\.gradle\caches\transforms-3\6e874290d051cc75f1be610f8a249452\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\346b3001c56d8c2750787d63c2fec0c7\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\346b3001c56d8c2750787d63c2fec0c7\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\a651f4fbba8432bfe6b4c0fede458b49\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\a651f4fbba8432bfe6b4c0fede458b49\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\e5963211d3103e660e081473cc4d2aa3\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\e5963211d3103e660e081473cc4d2aa3\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\ebeed668ceec22946406fb5cb2ca5129\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\ebeed668ceec22946406fb5cb2ca5129\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\3319e9946a5e91894ff253ae06885902\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\3319e9946a5e91894ff253ae06885902\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Nadi\.gradle\caches\transforms-3\7d15815a02f50929ddafc367bbdba1a9\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Nadi\.gradle\caches\transforms-3\7d15815a02f50929ddafc367bbdba1a9\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\9f2c70d3017ca99865cd38c45f19d034\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\9f2c70d3017ca99865cd38c45f19d034\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\18a27956e476b14db0b4a50a8156a33b\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\18a27956e476b14db0b4a50a8156a33b\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\d5c3d7eee667a43e188aca8d989c07ae\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Nadi\.gradle\caches\transforms-3\d5c3d7eee667a43e188aca8d989c07ae\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\c2c2739e74c74b5a6f213653cbb150d5\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\c2c2739e74c74b5a6f213653cbb150d5\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nadi\.gradle\caches\transforms-3\c3123de433b3c5e0cab0ff7ea5ac4472\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nadi\.gradle\caches\transforms-3\c3123de433b3c5e0cab0ff7ea5ac4472\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\867ff5768f3decfbc66e1a3972b6004c\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\867ff5768f3decfbc66e1a3972b6004c\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\4507699f8444c6003d52e05499bc45f3\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\4507699f8444c6003d52e05499bc45f3\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\33cf8713f090a4b11ce4c0c340a94fb4\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\33cf8713f090a4b11ce4c0c340a94fb4\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\c3964c0f343f7722ab27db109a2329a9\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\c3964c0f343f7722ab27db109a2329a9\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\b320ee77faa2c44cbc713d1a6310d11b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\b320ee77faa2c44cbc713d1a6310d11b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\cceef8b51eacc60dc2f2d26e16c5378e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\cceef8b51eacc60dc2f2d26e16c5378e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\092a81fa38cabee024f398b0ebc98689\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\092a81fa38cabee024f398b0ebc98689\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\ce0bde6273f3a2bc8642dbb9f76ab772\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nadi\.gradle\caches\transforms-3\ce0bde6273f3a2bc8642dbb9f76ab772\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\3db389dbf0a1e952b2eaf63564df0ce7\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Nadi\.gradle\caches\transforms-3\3db389dbf0a1e952b2eaf63564df0ce7\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\egyno\OneDrive\Desktop\NadiMovies-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nadi\Desktop\NadiMoviesDataBase\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\egyno\.gradle\caches\transforms-3\902ebe41e8b8208db212b3e328443e04\transformed\jetified-core-10.0.5\AndroidManifest.xml:12:5-79
+ADDED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\Nadi\.gradle\caches\transforms-3\338405d3201d157b8d63f838f7da8fe4\transformed\jetified-core-10.0.5\AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\egyno\.gradle\caches\transforms-3\902ebe41e8b8208db212b3e328443e04\transformed\jetified-core-10.0.5\AndroidManifest.xml:12:22-76
+		ADDED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\Nadi\.gradle\caches\transforms-3\338405d3201d157b8d63f838f7da8fe4\transformed\jetified-core-10.0.5\AndroidManifest.xml:12:22-76
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\e64f7730522a4a5ca5c28c5c5cc6c284\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\e64f7730522a4a5ca5c28c5c5cc6c284\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
 	android:multiprocess
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\e64f7730522a4a5ca5c28c5c5cc6c284\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
 	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\e64f7730522a4a5ca5c28c5c5cc6c284\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\e64f7730522a4a5ca5c28c5c5cc6c284\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
