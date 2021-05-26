@@ -9,6 +9,7 @@
 * ViewModel
 * Coroutines 
 * Retrofit
+* Room (Offline Caching)
 * Dagger Hilt
 * Mockito
 * Memory Leak (Leakcanary)
