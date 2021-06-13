@@ -5,8 +5,8 @@
 * Unit Test
 * MVVM 
 * ~~Databinding~~ -> ViewBinding
-* LiveData
-* ViewModel
+* ~~LiveData~~ -> StateFlow
+* ViewModel 
 * Coroutines 
 * Retrofit
 * Room (Offline Caching)
