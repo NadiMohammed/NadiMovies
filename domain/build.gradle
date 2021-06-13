@@ -16,7 +16,7 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0-native-mt'
 
     //mockito UnitTesting
-    testImplementation 'org.mockito:mockito-core:3.10.0'
+    testImplementation 'org.mockito:mockito-core:3.11.0'
 }
 java {
     sourceCompatibility = JavaVersion.VERSION_1_8

@@ -1,5 +1,3 @@
-com/nadi/data/BuildConfig.java
- com.nadi.data.BuildConfig
 com/nadi/data/local/MoviesDAO_Impl.java
  com.nadi.data.local.MoviesDAO_Impl
  com.nadi.data.local.MoviesDAO_Impl$1
@@ -11,6 +9,8 @@ com/nadi/data/local/MoviesDAO_Impl.java
  com.nadi.data.local.MoviesDAO_Impl$7
  com.nadi.data.local.MoviesDAO_Impl$8
  com.nadi.data.local.MoviesDAO_Impl$9
+com/nadi/data/BuildConfig.java
+ com.nadi.data.BuildConfig
 com/nadi/data/local/MainDatabase_Impl.java
  com.nadi.data.local.MainDatabase_Impl
  com.nadi.data.local.MainDatabase_Impl$1

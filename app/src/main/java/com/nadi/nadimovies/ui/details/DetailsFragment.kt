@@ -6,11 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
 import com.nadi.nadimovies.databinding.FragmentDetailsBinding
 import com.nadi.nadimovies.domain.movie.Movie
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.collect
 
 @ExperimentalCoroutinesApi
 class DetailsFragment : Fragment(), SimilarAdapter.OnSimilarClickListener {
@@ -49,15 +51,21 @@ class DetailsFragment : Fragment(), SimilarAdapter.OnSimilarClickListener {
     }
 
     private fun observe() {
-        viewModel.offlineMovies.observe(viewLifecycleOwner, {
-            similarAdapter.submitList(it)
-            applyData()
-        })
 
-        viewModel.property.observe(viewLifecycleOwner, {
-            similarAdapter.submitList(it.results)
-            applyData()
-        })
+        lifecycleScope.launchWhenStarted {
+            viewModel.offlineMovies.collect {
+                similarAdapter.submitList(it)
+                applyData()
+            }
+        }
+
+        lifecycleScope.launchWhenStarted {
+            viewModel.property.collect {
+                similarAdapter.submitList(it.results)
+                applyData()
+            }
+        }
+
     }
 
     private fun applyData() {

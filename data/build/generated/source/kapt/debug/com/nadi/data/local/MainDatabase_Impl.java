@@ -33,9 +33,9 @@ public final class MainDatabase_Impl extends MainDatabase {
     final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(1) {
       @Override
       public void createAllTables(SupportSQLiteDatabase _db) {
-        _db.execSQL("CREATE TABLE IF NOT EXISTS `movies` (`title` TEXT NOT NULL, `posterPath` TEXT NOT NULL, `voteAverage` REAL, PRIMARY KEY(`title`))");
+        _db.execSQL("CREATE TABLE IF NOT EXISTS `movies` (`title` TEXT NOT NULL, `posterPath` TEXT NOT NULL, `voteAverage` REAL, `overviewTxt` TEXT, PRIMARY KEY(`title`))");
         _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'e50d5b610fa022eb4513bb3a58fa28e1')");
+        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'b5f30b3ee17abdae875e06f4575e5c7d')");
       }
 
       @Override
@@ -79,10 +79,11 @@ public final class MainDatabase_Impl extends MainDatabase {
 
       @Override
       protected RoomOpenHelper.ValidationResult onValidateSchema(SupportSQLiteDatabase _db) {
-        final HashMap<String, TableInfo.Column> _columnsMovies = new HashMap<String, TableInfo.Column>(3);
+        final HashMap<String, TableInfo.Column> _columnsMovies = new HashMap<String, TableInfo.Column>(4);
         _columnsMovies.put("title", new TableInfo.Column("title", "TEXT", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsMovies.put("posterPath", new TableInfo.Column("posterPath", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsMovies.put("voteAverage", new TableInfo.Column("voteAverage", "REAL", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsMovies.put("overviewTxt", new TableInfo.Column("overviewTxt", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         final HashSet<TableInfo.ForeignKey> _foreignKeysMovies = new HashSet<TableInfo.ForeignKey>(0);
         final HashSet<TableInfo.Index> _indicesMovies = new HashSet<TableInfo.Index>(0);
         final TableInfo _infoMovies = new TableInfo("movies", _columnsMovies, _foreignKeysMovies, _indicesMovies);
@@ -94,7 +95,7 @@ public final class MainDatabase_Impl extends MainDatabase {
         }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "e50d5b610fa022eb4513bb3a58fa28e1", "c38cc4774b864f6ff0cc1ba8601ef324");
+    }, "b5f30b3ee17abdae875e06f4575e5c7d", "8a04077d393e8f613202c32e131f1f0f");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(configuration.context)
         .name(configuration.name)
         .callback(_openCallback)

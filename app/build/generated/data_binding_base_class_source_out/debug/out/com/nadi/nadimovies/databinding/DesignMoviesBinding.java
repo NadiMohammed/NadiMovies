@@ -4,12 +4,13 @@ package com.nadi.nadimovies.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.imageview.ShapeableImageView;
+import com.google.android.material.textview.MaterialTextView;
 import com.nadi.nadimovies.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -20,19 +21,20 @@ public final class DesignMoviesBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
-  public final ImageView movieImg;
+  public final ShapeableImageView movieImg;
 
   @NonNull
   public final TextView movieNameTxt;
 
   @NonNull
-  public final ImageView rateIcon;
+  public final ShapeableImageView rateIcon;
 
   @NonNull
-  public final TextView rateTxt;
+  public final MaterialTextView rateTxt;
 
-  private DesignMoviesBinding(@NonNull CardView rootView, @NonNull ImageView movieImg,
-      @NonNull TextView movieNameTxt, @NonNull ImageView rateIcon, @NonNull TextView rateTxt) {
+  private DesignMoviesBinding(@NonNull CardView rootView, @NonNull ShapeableImageView movieImg,
+      @NonNull TextView movieNameTxt, @NonNull ShapeableImageView rateIcon,
+      @NonNull MaterialTextView rateTxt) {
     this.rootView = rootView;
     this.movieImg = movieImg;
     this.movieNameTxt = movieNameTxt;
@@ -68,7 +70,7 @@ public final class DesignMoviesBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.movieImg;
-      ImageView movieImg = rootView.findViewById(id);
+      ShapeableImageView movieImg = rootView.findViewById(id);
       if (movieImg == null) {
         break missingId;
       }
@@ -80,13 +82,13 @@ public final class DesignMoviesBinding implements ViewBinding {
       }
 
       id = R.id.rateIcon;
-      ImageView rateIcon = rootView.findViewById(id);
+      ShapeableImageView rateIcon = rootView.findViewById(id);
       if (rateIcon == null) {
         break missingId;
       }
 
       id = R.id.rateTxt;
-      TextView rateTxt = rootView.findViewById(id);
+      MaterialTextView rateTxt = rootView.findViewById(id);
       if (rateTxt == null) {
         break missingId;
       }

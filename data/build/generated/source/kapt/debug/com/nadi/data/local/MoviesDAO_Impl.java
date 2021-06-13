@@ -42,7 +42,7 @@ public final class MoviesDAO_Impl implements MoviesDAO {
     this.__insertionAdapterOfDatabaseMovie = new EntityInsertionAdapter<DatabaseMovie>(__db) {
       @Override
       public String createQuery() {
-        return "INSERT OR REPLACE INTO `movies` (`title`,`posterPath`,`voteAverage`) VALUES (?,?,?)";
+        return "INSERT OR REPLACE INTO `movies` (`title`,`posterPath`,`voteAverage`,`overviewTxt`) VALUES (?,?,?,?)";
       }
 
       @Override
@@ -61,6 +61,11 @@ public final class MoviesDAO_Impl implements MoviesDAO {
           stmt.bindNull(3);
         } else {
           stmt.bindDouble(3, value.getVoteAverage());
+        }
+        if (value.getOverviewTxt() == null) {
+          stmt.bindNull(4);
+        } else {
+          stmt.bindString(4, value.getOverviewTxt());
         }
       }
     };
@@ -82,7 +87,7 @@ public final class MoviesDAO_Impl implements MoviesDAO {
     this.__updateAdapterOfDatabaseMovie = new EntityDeletionOrUpdateAdapter<DatabaseMovie>(__db) {
       @Override
       public String createQuery() {
-        return "UPDATE OR ABORT `movies` SET `title` = ?,`posterPath` = ?,`voteAverage` = ? WHERE `title` = ?";
+        return "UPDATE OR ABORT `movies` SET `title` = ?,`posterPath` = ?,`voteAverage` = ?,`overviewTxt` = ? WHERE `title` = ?";
       }
 
       @Override
@@ -102,10 +107,15 @@ public final class MoviesDAO_Impl implements MoviesDAO {
         } else {
           stmt.bindDouble(3, value.getVoteAverage());
         }
-        if (value.getTitle() == null) {
+        if (value.getOverviewTxt() == null) {
           stmt.bindNull(4);
         } else {
-          stmt.bindString(4, value.getTitle());
+          stmt.bindString(4, value.getOverviewTxt());
+        }
+        if (value.getTitle() == null) {
+          stmt.bindNull(5);
+        } else {
+          stmt.bindString(5, value.getTitle());
         }
       }
     };
@@ -202,6 +212,7 @@ public final class MoviesDAO_Impl implements MoviesDAO {
           final int _cursorIndexOfTitle = CursorUtil.getColumnIndexOrThrow(_cursor, "title");
           final int _cursorIndexOfPosterPath = CursorUtil.getColumnIndexOrThrow(_cursor, "posterPath");
           final int _cursorIndexOfVoteAverage = CursorUtil.getColumnIndexOrThrow(_cursor, "voteAverage");
+          final int _cursorIndexOfOverviewTxt = CursorUtil.getColumnIndexOrThrow(_cursor, "overviewTxt");
           final List<DatabaseMovie> _result = new ArrayList<DatabaseMovie>(_cursor.getCount());
           while(_cursor.moveToNext()) {
             final DatabaseMovie _item;
@@ -223,7 +234,13 @@ public final class MoviesDAO_Impl implements MoviesDAO {
             } else {
               _tmpVoteAverage = _cursor.getDouble(_cursorIndexOfVoteAverage);
             }
-            _item = new DatabaseMovie(_tmpTitle,_tmpPosterPath,_tmpVoteAverage);
+            final String _tmpOverviewTxt;
+            if (_cursor.isNull(_cursorIndexOfOverviewTxt)) {
+              _tmpOverviewTxt = null;
+            } else {
+              _tmpOverviewTxt = _cursor.getString(_cursorIndexOfOverviewTxt);
+            }
+            _item = new DatabaseMovie(_tmpTitle,_tmpPosterPath,_tmpVoteAverage,_tmpOverviewTxt);
             _result.add(_item);
           }
           return _result;

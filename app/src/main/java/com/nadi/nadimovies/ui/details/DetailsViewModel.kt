@@ -1,7 +1,5 @@
 package com.nadi.nadimovies.ui.details
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.nadi.nadimovies.domain.Result
@@ -10,25 +8,27 @@ import com.nadi.nadimovies.domain.movie.get
 import com.nadi.nadimovies.domain.similar.movieGetSimilar
 import com.nadi.nadimovies.util.ApiStatus
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
 @ExperimentalCoroutinesApi
 class DetailsViewModel(val movie: Movie.Result) : ViewModel() {
 
-    private val _status = MutableLiveData<ApiStatus>()
-    val status: LiveData<ApiStatus>
+    private val _status = MutableStateFlow(ApiStatus.DONE)
+    val status: StateFlow<ApiStatus>
         get() = _status
 
-    private val _onMessageError = MutableLiveData<Any>()
-    val onMessageError: LiveData<Any>
+    private val _onMessageError = MutableStateFlow<Any>("")
+    val onMessageError: StateFlow<Any>
         get() = _onMessageError
 
-    private val _offlineMovies = MutableLiveData<List<Movie.Result>>()
-    val offlineMovies: LiveData<List<Movie.Result>>
+    private val _offlineMovies = MutableStateFlow<List<Movie.Result>>(emptyList())
+    val offlineMovies: StateFlow<List<Movie.Result>>
         get() = _offlineMovies
 
-    private val _property = MutableLiveData<Movie>()
-    val property: LiveData<Movie>
+    private val _property = MutableStateFlow(Movie())
+    val property: StateFlow<Movie>
         get() = _property
 
     init {
@@ -45,7 +45,7 @@ class DetailsViewModel(val movie: Movie.Result) : ViewModel() {
                     _status.value = ApiStatus.DONE
                 }
                 is Result.Failed -> {
-                    _onMessageError.postValue(result.exception!!)
+                    _onMessageError.value = result.exception!!
                     _status.value = ApiStatus.DONE
                 }
             }
@@ -55,7 +55,7 @@ class DetailsViewModel(val movie: Movie.Result) : ViewModel() {
     private fun getMoviesFromDB() {
         viewModelScope.launch {
             _status.value = ApiStatus.LOADING
-            _offlineMovies.value = get()!!
+            _offlineMovies.value = get()
             _status.value = ApiStatus.DONE
         }
     }

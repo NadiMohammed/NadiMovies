@@ -12,9 +12,13 @@ import org.junit.jupiter.api.Test
 import org.mockito.InOrder
 import org.mockito.Mockito
 
+@ExperimentalCoroutinesApi
 internal class MovieUseCaseTest {
 
-    @ExperimentalCoroutinesApi
+    /*
+    Testing Without Mockito
+     */
+
     @Test
     fun `movieGetNowPlaying() then invoke getNowPlaying() from MovieRepository`() =
         runBlockingTest {
@@ -28,10 +32,17 @@ internal class MovieUseCaseTest {
                         invoked = true
                         return Result.Success(Movie())
                     }
+
+                    override suspend fun create(movie: List<Movie.Result>) {
+                        TODO("Not yet implemented")
+                    }
+
+                    override suspend fun get(): List<Movie.Result> {
+                        TODO("Not yet implemented")
+                    }
                 }
 
                 //Act
-//            MovieUseCase(movieRepository).movieGetNowPlaying()
                 getNowPlayingMoviesUseCase(movieRepository)
 
                 //Assert
@@ -42,7 +53,6 @@ internal class MovieUseCaseTest {
             }
         }
 
-    @ExperimentalCoroutinesApi
     @Test
     fun `movieGetNowPlaying() with successful getNowPlaying() from MovieRepository then return movies`() =
         try {
@@ -53,10 +63,17 @@ internal class MovieUseCaseTest {
                     override suspend fun getNowPlaying(): Result<Movie> {
                         return Result.Success(Movie())
                     }
+
+                    override suspend fun create(movie: List<Movie.Result>) {
+                        TODO("Not yet implemented")
+                    }
+
+                    override suspend fun get(): List<Movie.Result> {
+                        TODO("Not yet implemented")
+                    }
                 }
 
                 //Act
-//                val result = MovieUseCase(movieRepository).movieGetNowPlaying()
                 val result = getNowPlayingMoviesUseCase(movieRepository)
 
                 //Assert
@@ -69,7 +86,6 @@ internal class MovieUseCaseTest {
         }
 
 
-    @ExperimentalCoroutinesApi
     @Test
     fun `movieSortByName() with list of movies then return list of movies sorted by name`() =
         try {
@@ -99,9 +115,13 @@ internal class MovieUseCaseTest {
         }
 
 
-    @ExperimentalCoroutinesApi
+    /*
+    Testing With Mockito
+     */
+
+
     @Test
-    fun `movieSortByName() with list of movies then return list of movies sorted by name Useing Mockito`() =
+    fun `movieSortByName() with list of movies then return list of movies sorted by name Using Mockito`() =
         try {
             runBlockingTest {
 
@@ -128,16 +148,14 @@ internal class MovieUseCaseTest {
             e.printStackTrace()
         }
 
-    @ExperimentalCoroutinesApi
     @Test
-    fun `movieGetNowPlaying() with Mockito With successful getNowPlaying() from MovieRepository then return movies`() =
+    fun `movieGetNowPlaying() with successful getNowPlaying() from MovieRepository then return movies Using Mockito`() =
         try {
             runBlockingTest {
 
                 val movieRepository = Mockito.mock(MovieRepository::class.java)
 
                 val inOrder: InOrder = Mockito.inOrder(movieRepository)
-
 
                 Mockito.`when`(movieRepository.getNowPlaying())
                     .thenReturn(Result.Success(Movie()))

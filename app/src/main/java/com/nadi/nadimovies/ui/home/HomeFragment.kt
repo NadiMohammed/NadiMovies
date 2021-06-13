@@ -6,12 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.nadi.nadimovies.databinding.FragmentHomeBinding
 import com.nadi.nadimovies.domain.movie.Movie
 import com.nadi.nadimovies.ui.home.HomeAdapter.MoviesViewType.NORMAL
 import com.nadi.nadimovies.ui.home.HomeAdapter.MoviesViewType.PAGER
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.collect
 
 
 @ExperimentalCoroutinesApi
@@ -38,25 +40,53 @@ class HomeFragment : Fragment(), HomeAdapter.OnMovieClickListener {
         return binding.root
     }
 
+
     private fun init() {
         upcomingMoviesAdapter = HomeAdapter(PAGER, this)
         homeAdapter = HomeAdapter(NORMAL, this)
 
         binding.nowPlayingRecycler.adapter = homeAdapter
         binding.viewPager.adapter = upcomingMoviesAdapter
+
+
     }
 
     private fun observe() {
-        viewModel.offlineMovies.observe(viewLifecycleOwner, {
-            homeAdapter.submitList(it)
-            upcomingMoviesAdapter.submitList(it)
-        })
+        lifecycleScope.launchWhenStarted {
 
-        viewModel.property.observe(viewLifecycleOwner, {
-            homeAdapter.submitList(it.results)
-            upcomingMoviesAdapter.submitList(it.results)
+            viewModel.offlineMovies.collect {
 
-        })
+                when (it.isNullOrEmpty()) {
+                    true -> {
+                        homeAdapter.submitList(null)
+                        upcomingMoviesAdapter.submitList(null)
+                    }
+                    false -> {
+                        homeAdapter.submitList(it)
+                        upcomingMoviesAdapter.submitList(it)
+                    }
+                }
+
+
+            }
+        }
+        lifecycleScope.launchWhenStarted {
+
+            viewModel.property.collect {
+
+                when (it.results.isNullOrEmpty()) {
+                    true -> {
+                        homeAdapter.submitList(null)
+                        upcomingMoviesAdapter.submitList(null)
+                    }
+                    false -> {
+                        homeAdapter.submitList(it.results)
+                        upcomingMoviesAdapter.submitList(it.results)
+                    }
+                }
+            }
+        }
+
     }
 
 

@@ -4,11 +4,11 @@ package com.nadi.nadimovies.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import com.google.android.material.card.MaterialCardView;
+import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.textview.MaterialTextView;
 import com.nadi.nadimovies.R;
 import java.lang.NullPointerException;
@@ -20,13 +20,13 @@ public final class DesignHomeViewpagerBinding implements ViewBinding {
   private final MaterialCardView rootView;
 
   @NonNull
-  public final ImageView movieImg;
+  public final ShapeableImageView movieImg;
 
   @NonNull
   public final MaterialTextView movieNameTxt;
 
   private DesignHomeViewpagerBinding(@NonNull MaterialCardView rootView,
-      @NonNull ImageView movieImg, @NonNull MaterialTextView movieNameTxt) {
+      @NonNull ShapeableImageView movieImg, @NonNull MaterialTextView movieNameTxt) {
     this.rootView = rootView;
     this.movieImg = movieImg;
     this.movieNameTxt = movieNameTxt;
@@ -60,7 +60,7 @@ public final class DesignHomeViewpagerBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.movieImg;
-      ImageView movieImg = rootView.findViewById(id);
+      ShapeableImageView movieImg = rootView.findViewById(id);
       if (movieImg == null) {
         break missingId;
       }

@@ -4,13 +4,13 @@ package com.nadi.nadimovies.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.ScrollView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.imageview.ShapeableImageView;
+import com.google.android.material.textview.MaterialTextView;
 import com.nadi.nadimovies.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -21,43 +21,44 @@ public final class FragmentDetailsBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
-  public final ImageView dateImg;
+  public final ShapeableImageView dateImg;
 
   @NonNull
-  public final ImageView movieImg;
+  public final ShapeableImageView movieImg;
 
   @NonNull
-  public final TextView movieNameTxt;
+  public final MaterialTextView movieNameTxt;
 
   @NonNull
-  public final TextView nowPlayingText;
+  public final MaterialTextView nowPlayingText;
 
   @NonNull
   public final View overlayView;
 
   @NonNull
-  public final TextView overviewTxt;
+  public final MaterialTextView overviewTxt;
 
   @NonNull
-  public final ImageView playImg;
+  public final ShapeableImageView playImg;
 
   @NonNull
-  public final ImageView rateImg;
+  public final ShapeableImageView rateImg;
 
   @NonNull
-  public final TextView rateTxt;
+  public final MaterialTextView rateTxt;
 
   @NonNull
-  public final TextView releaseDateTxt;
+  public final MaterialTextView releaseDateTxt;
 
   @NonNull
   public final RecyclerView similarMoviesRecycler;
 
-  private FragmentDetailsBinding(@NonNull ScrollView rootView, @NonNull ImageView dateImg,
-      @NonNull ImageView movieImg, @NonNull TextView movieNameTxt, @NonNull TextView nowPlayingText,
-      @NonNull View overlayView, @NonNull TextView overviewTxt, @NonNull ImageView playImg,
-      @NonNull ImageView rateImg, @NonNull TextView rateTxt, @NonNull TextView releaseDateTxt,
-      @NonNull RecyclerView similarMoviesRecycler) {
+  private FragmentDetailsBinding(@NonNull ScrollView rootView, @NonNull ShapeableImageView dateImg,
+      @NonNull ShapeableImageView movieImg, @NonNull MaterialTextView movieNameTxt,
+      @NonNull MaterialTextView nowPlayingText, @NonNull View overlayView,
+      @NonNull MaterialTextView overviewTxt, @NonNull ShapeableImageView playImg,
+      @NonNull ShapeableImageView rateImg, @NonNull MaterialTextView rateTxt,
+      @NonNull MaterialTextView releaseDateTxt, @NonNull RecyclerView similarMoviesRecycler) {
     this.rootView = rootView;
     this.dateImg = dateImg;
     this.movieImg = movieImg;
@@ -100,25 +101,25 @@ public final class FragmentDetailsBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.dateImg;
-      ImageView dateImg = rootView.findViewById(id);
+      ShapeableImageView dateImg = rootView.findViewById(id);
       if (dateImg == null) {
         break missingId;
       }
 
       id = R.id.movieImg;
-      ImageView movieImg = rootView.findViewById(id);
+      ShapeableImageView movieImg = rootView.findViewById(id);
       if (movieImg == null) {
         break missingId;
       }
 
       id = R.id.movieNameTxt;
-      TextView movieNameTxt = rootView.findViewById(id);
+      MaterialTextView movieNameTxt = rootView.findViewById(id);
       if (movieNameTxt == null) {
         break missingId;
       }
 
       id = R.id.nowPlayingText;
-      TextView nowPlayingText = rootView.findViewById(id);
+      MaterialTextView nowPlayingText = rootView.findViewById(id);
       if (nowPlayingText == null) {
         break missingId;
       }
@@ -130,31 +131,31 @@ public final class FragmentDetailsBinding implements ViewBinding {
       }
 
       id = R.id.overviewTxt;
-      TextView overviewTxt = rootView.findViewById(id);
+      MaterialTextView overviewTxt = rootView.findViewById(id);
       if (overviewTxt == null) {
         break missingId;
       }
 
       id = R.id.playImg;
-      ImageView playImg = rootView.findViewById(id);
+      ShapeableImageView playImg = rootView.findViewById(id);
       if (playImg == null) {
         break missingId;
       }
 
       id = R.id.rateImg;
-      ImageView rateImg = rootView.findViewById(id);
+      ShapeableImageView rateImg = rootView.findViewById(id);
       if (rateImg == null) {
         break missingId;
       }
 
       id = R.id.rateTxt;
-      TextView rateTxt = rootView.findViewById(id);
+      MaterialTextView rateTxt = rootView.findViewById(id);
       if (rateTxt == null) {
         break missingId;
       }
 
       id = R.id.releaseDateTxt;
-      TextView releaseDateTxt = rootView.findViewById(id);
+      MaterialTextView releaseDateTxt = rootView.findViewById(id);
       if (releaseDateTxt == null) {
         break missingId;
       }

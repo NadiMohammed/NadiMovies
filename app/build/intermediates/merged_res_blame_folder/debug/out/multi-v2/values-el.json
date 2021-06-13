@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Nadi\\Desktop\\NadiMoviesDataBase\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-el\\values-el.xml",
+            "outputFile": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-el\\values-el.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Nadi\\.gradle\\caches\\transforms-3\\b0360eb97ccb4b49c439db16c9ed1caf\\transformed\\navigation-ui-2.3.5\\res\\values-el\\values-el.xml",
