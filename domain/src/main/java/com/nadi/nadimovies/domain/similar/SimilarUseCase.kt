@@ -6,7 +6,4 @@ import com.nadi.nadimovies.domain.movie.Movie
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 @ExperimentalCoroutinesApi
-suspend fun movieGetSimilar(
-    movieID: Int,
-    similarRepository: SimilarRepository = SimilarRepository
-): Result<Movie> = similarRepository.getSimilar(movieID)
+suspend fun movieGetSimilar(movieID: Int, similarRepository: SimilarRepository = SimilarRepository): Result<Movie> = similarRepository.getSimilar(movieID)

@@ -1704,6 +1704,7 @@ drawable ayp_ic_pause_36dp
 drawable ayp_ic_play_36dp
 drawable ayp_ic_youtube_24dp
 drawable ayp_shape_rounded_corners
+drawable bottom_nav_color
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2028,6 +2029,7 @@ id month_navigation_next
 id month_navigation_previous
 id month_title
 id motion_base
+id movieDateTxt
 id movieImg
 id movieNameTxt
 id mtrl_anchor_parent
@@ -2121,6 +2123,7 @@ id scrollView
 id scrollable
 id search
 id searchFragment
+id searchRecycler
 id search_badge
 id search_bar
 id search_button
@@ -2323,6 +2326,7 @@ layout design_navigation_item_separator
 layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
+layout design_search_movies
 layout design_similar
 layout design_text_input_end_icon
 layout design_text_input_start_icon

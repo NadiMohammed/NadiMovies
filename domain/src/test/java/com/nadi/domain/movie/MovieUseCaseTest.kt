@@ -1,10 +1,8 @@
 package com.nadi.domain.movie
 
 import com.nadi.nadimovies.domain.Result
-import com.nadi.nadimovies.domain.movie.Movie
-import com.nadi.nadimovies.domain.movie.MovieRepository
-import com.nadi.nadimovies.domain.movie.getNowPlayingMoviesUseCase
-import com.nadi.nadimovies.domain.movie.movieSortByName
+import com.nadi.nadimovies.domain.movie.*
+import com.nadi.nadimovies.domain.search.Search
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runBlockingTest
 import org.junit.jupiter.api.Assertions.assertEquals
@@ -40,6 +38,10 @@ internal class MovieUseCaseTest {
                     override suspend fun get(): List<Movie.Result> {
                         TODO("Not yet implemented")
                     }
+
+                    override suspend fun search(movieName: String): Result<Search> {
+                        TODO("Not yet implemented")
+                    }
                 }
 
                 //Act
@@ -69,6 +71,10 @@ internal class MovieUseCaseTest {
                     }
 
                     override suspend fun get(): List<Movie.Result> {
+                        TODO("Not yet implemented")
+                    }
+
+                    override suspend fun search(movieName: String): Result<Search> {
                         TODO("Not yet implemented")
                     }
                 }
@@ -115,6 +121,41 @@ internal class MovieUseCaseTest {
         }
 
 
+    @Test
+    fun `search() with successful from MovieRepository then return moviesList`() =
+        try {
+            runBlockingTest {
+                //Arrange
+                val movieRepository = object : MovieRepository {
+                    override suspend fun getNowPlaying(): Result<Movie> {
+                        TODO("Not yet implemented")
+                    }
+
+                    override suspend fun create(movie: List<Movie.Result>) {
+                        TODO("Not yet implemented")
+                    }
+
+                    override suspend fun get(): List<Movie.Result> {
+                        TODO("Not yet implemented")
+                    }
+
+                    override suspend fun search(movieName: String): Result<Search> {
+                        return Result.Success(Search())
+                    }
+                }
+
+                //Act
+                val result = search("batman", movieRepository)
+
+                //Assert
+                val expected = Result.Success(Search())
+
+                assertEquals(expected, result)
+
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
     /*
     Testing With Mockito
      */

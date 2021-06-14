@@ -12,6 +12,10 @@
         "source": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\src\\main\\res\\layout\\design_movies.xml"
     },
     {
+        "merged": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\design_search_movies.xml",
+        "source": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\src\\main\\res\\layout\\design_search_movies.xml"
+    },
+    {
         "merged": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\src\\main\\res\\layout\\activity_main.xml"
     },

@@ -34,42 +34,43 @@
 21-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:12:9-54
 22        android:supportsRtl="true"
 22-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:13:9-35
-23        android:theme="@style/Theme.NadiMovies" >
-23-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:14:9-48
-24        <activity android:name="com.nadi.nadimovies.ui.MainActivity" >
-24-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:15:9-21:20
-24-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:15:19-50
-25            <intent-filter>
-25-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:16:13-20:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:17:17-69
-26-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:17:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:19:17-77
-28-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:19:27-74
-29            </intent-filter>
-30        </activity>
-31
-32        <provider
-32-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-33            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-33-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-34            android:authorities="com.nadi.nadi.lifecycle-process"
-34-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-35            android:exported="false"
-35-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-36            android:multiprocess="true" />
-36-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-37
-38        <service
-38-->[androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
-39            android:name="androidx.room.MultiInstanceInvalidationService"
-39-->[androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
-40            android:directBootAware="true"
-40-->[androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
-41            android:exported="false" />
-41-->[androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
-42    </application>
-43
-44</manifest>
+23        android:testOnly="true"
+24        android:theme="@style/Theme.NadiMovies" >
+24-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:14:9-48
+25        <activity android:name="com.nadi.nadimovies.ui.MainActivity" >
+25-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:15:9-21:20
+25-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:15:19-50
+26            <intent-filter>
+26-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:16:13-20:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:17:17-69
+27-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:17:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:19:17-77
+29-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:19:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <provider
+33-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+34            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+34-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+35            android:authorities="com.nadi.nadi.lifecycle-process"
+35-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+36            android:exported="false"
+36-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+37            android:multiprocess="true" />
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+38
+39        <service
+39-->[androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+40            android:name="androidx.room.MultiInstanceInvalidationService"
+40-->[androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+41            android:directBootAware="true"
+41-->[androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+42            android:exported="false" />
+42-->[androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+43    </application>
+44
+45</manifest>

@@ -1,15 +1,29 @@
+com/nadi/nadimovies/BuildConfig.java
+ com.nadi.nadimovies.BuildConfig
+com/nadi/nadimovies/ui/trailer/TrailerFragmentArgs.java
+ com.nadi.nadimovies.ui.trailer.TrailerFragmentArgs
+ com.nadi.nadimovies.ui.trailer.TrailerFragmentArgs$1
+ com.nadi.nadimovies.ui.trailer.TrailerFragmentArgs$Builder
+com/nadi/nadimovies/ui/details/DetailsFragmentArgs.java
+ com.nadi.nadimovies.ui.details.DetailsFragmentArgs
+ com.nadi.nadimovies.ui.details.DetailsFragmentArgs$1
+ com.nadi.nadimovies.ui.details.DetailsFragmentArgs$Builder
 com/nadi/nadimovies/databinding/FragmentHomeBinding.java
  com.nadi.nadimovies.databinding.FragmentHomeBinding
 com/nadi/nadimovies/databinding/DesignMoviesBinding.java
  com.nadi.nadimovies.databinding.DesignMoviesBinding
 com/nadi/nadimovies/databinding/DesignSimilarBinding.java
  com.nadi.nadimovies.databinding.DesignSimilarBinding
+com/nadi/nadimovies/databinding/SearchFragmentBinding.java
+ com.nadi.nadimovies.databinding.SearchFragmentBinding
 com/nadi/nadimovies/databinding/DesignHomeViewpagerBinding.java
  com.nadi.nadimovies.databinding.DesignHomeViewpagerBinding
 com/nadi/nadimovies/ui/home/HomeFragmentDirections.java
  com.nadi.nadimovies.ui.home.HomeFragmentDirections
  com.nadi.nadimovies.ui.home.HomeFragmentDirections$1
  com.nadi.nadimovies.ui.home.HomeFragmentDirections$ActionHomeFragmentToDetailsFragment
+com/nadi/nadimovies/databinding/DesignSearchMoviesBinding.java
+ com.nadi.nadimovies.databinding.DesignSearchMoviesBinding
 com/nadi/nadimovies/databinding/FragmentTrailerBinding.java
  com.nadi.nadimovies.databinding.FragmentTrailerBinding
 com/nadi/nadimovies/ui/details/DetailsFragmentDirections.java
@@ -17,19 +31,7 @@ com/nadi/nadimovies/ui/details/DetailsFragmentDirections.java
  com.nadi.nadimovies.ui.details.DetailsFragmentDirections$1
  com.nadi.nadimovies.ui.details.DetailsFragmentDirections$ActionDetailsFragmentSelf
  com.nadi.nadimovies.ui.details.DetailsFragmentDirections$ActionDetailsFragmentToTrailerFragment
-com/nadi/nadimovies/ui/trailer/TrailerFragmentArgs.java
- com.nadi.nadimovies.ui.trailer.TrailerFragmentArgs
- com.nadi.nadimovies.ui.trailer.TrailerFragmentArgs$1
- com.nadi.nadimovies.ui.trailer.TrailerFragmentArgs$Builder
-com/nadi/nadimovies/databinding/ActivityMainBinding.java
- com.nadi.nadimovies.databinding.ActivityMainBinding
-com/nadi/nadimovies/databinding/SearchFragmentBinding.java
- com.nadi.nadimovies.databinding.SearchFragmentBinding
-com/nadi/nadimovies/ui/details/DetailsFragmentArgs.java
- com.nadi.nadimovies.ui.details.DetailsFragmentArgs
- com.nadi.nadimovies.ui.details.DetailsFragmentArgs$1
- com.nadi.nadimovies.ui.details.DetailsFragmentArgs$Builder
 com/nadi/nadimovies/databinding/FragmentDetailsBinding.java
  com.nadi.nadimovies.databinding.FragmentDetailsBinding
-com/nadi/nadimovies/BuildConfig.java
- com.nadi.nadimovies.BuildConfig
+com/nadi/nadimovies/databinding/ActivityMainBinding.java
+ com.nadi.nadimovies.databinding.ActivityMainBinding

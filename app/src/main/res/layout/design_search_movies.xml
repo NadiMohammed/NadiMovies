@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/movie">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/movieImg"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/movieNameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@+id/movieImg"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/movieDateTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movieNameTxt"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/movieImg"
+            android:ellipsize="end"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/rateIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movieDateTxt"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/movieImg"
+            android:src="@drawable/star_icon" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/rateTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movieDateTxt"
+            android:layout_marginTop="7dp"
+            android:layout_toEndOf="@+id/rateIcon"
+            android:layout_toRightOf="@+id/movieImg"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

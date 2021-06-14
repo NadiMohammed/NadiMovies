@@ -8,6 +8,7 @@ import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import com.nadi.nadimovies.R;
 import java.lang.NullPointerException;
@@ -21,9 +22,14 @@ public final class SearchFragmentBinding implements ViewBinding {
   @NonNull
   public final SearchView search;
 
-  private SearchFragmentBinding(@NonNull RelativeLayout rootView, @NonNull SearchView search) {
+  @NonNull
+  public final RecyclerView searchRecycler;
+
+  private SearchFragmentBinding(@NonNull RelativeLayout rootView, @NonNull SearchView search,
+      @NonNull RecyclerView searchRecycler) {
     this.rootView = rootView;
     this.search = search;
+    this.searchRecycler = searchRecycler;
   }
 
   @Override
@@ -59,7 +65,13 @@ public final class SearchFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new SearchFragmentBinding((RelativeLayout) rootView, search);
+      id = R.id.searchRecycler;
+      RecyclerView searchRecycler = rootView.findViewById(id);
+      if (searchRecycler == null) {
+        break missingId;
+      }
+
+      return new SearchFragmentBinding((RelativeLayout) rootView, search, searchRecycler);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

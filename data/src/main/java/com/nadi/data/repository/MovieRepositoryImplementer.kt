@@ -10,6 +10,7 @@ import com.nadi.data.network.MovieAPIs
 import com.nadi.nadimovies.domain.Result
 import com.nadi.nadimovies.domain.movie.Movie
 import com.nadi.nadimovies.domain.movie.MovieRepository
+import com.nadi.nadimovies.domain.search.Search
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 @ExperimentalCoroutinesApi
@@ -27,6 +28,9 @@ class MovieRepositoryImplementer(
 
     override suspend fun get(): List<Movie.Result> = database.moviesDAO.get().asDomainModel()
 
+    override suspend fun search(movieName: String): Result<Search> {
+        return safeApiCall { movieAPIs.search(movieName) }
+    }
 
 }
 

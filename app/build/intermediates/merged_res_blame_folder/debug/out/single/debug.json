@@ -20,6 +20,10 @@
         "source": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_search_movies.xml.flat",
+        "source": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\src\\main\\res\\layout\\design_search_movies.xml"
+    },
+    {
         "merged": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
@@ -98,6 +102,10 @@
     {
         "merged": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_effect.xml.flat",
         "source": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\src\\main\\res\\drawable\\gradient_effect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_nav_color.xml.flat",
+        "source": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\src\\main\\res\\drawable\\bottom_nav_color.xml"
     },
     {
         "merged": "C:\\Users\\Nadi\\Desktop\\GitHub\\NadiMovies\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
