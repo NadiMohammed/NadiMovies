@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.nadi.data.di.Context
+import dagger.hilt.android.qualifiers.ApplicationContext
 
 
 @Database(entities = [DatabaseMovie::class], version = 1, exportSchema = false)
@@ -17,7 +17,7 @@ abstract class MainDatabase : RoomDatabase() {
         @Volatile
         private var INSTANCE: MainDatabase? = null
 
-        fun getInstance(context: Context = Context): MainDatabase {
+        fun getInstance(@ApplicationContext context: Context): MainDatabase {
             synchronized(this) {
                 var instance = INSTANCE
                 if (instance == null) {

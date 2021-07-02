@@ -4,17 +4,18 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.nadi.nadimovies.domain.Result
 import com.nadi.nadimovies.domain.movie.Movie
-import com.nadi.nadimovies.domain.movie.create
-import com.nadi.nadimovies.domain.movie.get
-import com.nadi.nadimovies.domain.movie.getNowPlayingMoviesUseCase
+import com.nadi.nadimovies.domain.movie.MovieUseCase
 import com.nadi.nadimovies.util.ApiStatus
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
+@HiltViewModel
 @ExperimentalCoroutinesApi
-class HomeViewModel : ViewModel() {
+class HomeViewModel @Inject constructor(private val movieUseCase: MovieUseCase) : ViewModel() {
 
     private val _status = MutableStateFlow(ApiStatus.DONE)
     val status: StateFlow<ApiStatus>
@@ -41,8 +42,9 @@ class HomeViewModel : ViewModel() {
         viewModelScope.launch {
             _status.value = ApiStatus.LOADING
 
-            when (val result = getNowPlayingMoviesUseCase()) {
+            when (val result = movieUseCase.getNowPlayingMoviesUseCase()) {
                 is Result.Success -> {
+//                    _property.emit(result.results!!)
                     _property.value = result.results!!
                     saveMoviesInDB(result.results!!.results)
                     _status.value = ApiStatus.DONE
@@ -58,7 +60,7 @@ class HomeViewModel : ViewModel() {
     private fun saveMoviesInDB(movie: List<Movie.Result>) {
         viewModelScope.launch {
             _status.value = ApiStatus.LOADING
-            create(movie)
+            movieUseCase.create(movie)
             _status.value = ApiStatus.DONE
         }
     }
@@ -67,7 +69,7 @@ class HomeViewModel : ViewModel() {
     private fun getMoviesFromDB() {
         viewModelScope.launch {
             _status.value = ApiStatus.LOADING
-            _offlineMovies.emit(get())
+            _offlineMovies.emit(movieUseCase.get())
             _status.value = ApiStatus.DONE
         }
     }

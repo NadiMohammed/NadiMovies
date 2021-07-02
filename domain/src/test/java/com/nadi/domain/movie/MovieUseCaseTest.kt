@@ -1,7 +1,9 @@
 package com.nadi.domain.movie
 
 import com.nadi.nadimovies.domain.Result
-import com.nadi.nadimovies.domain.movie.*
+import com.nadi.nadimovies.domain.movie.Movie
+import com.nadi.nadimovies.domain.movie.MovieRepository
+import com.nadi.nadimovies.domain.movie.MovieUseCase
 import com.nadi.nadimovies.domain.search.Search
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runBlockingTest
@@ -16,7 +18,6 @@ internal class MovieUseCaseTest {
     /*
     Testing Without Mockito
      */
-
     @Test
     fun `movieGetNowPlaying() then invoke getNowPlaying() from MovieRepository`() =
         runBlockingTest {
@@ -45,7 +46,8 @@ internal class MovieUseCaseTest {
                 }
 
                 //Act
-                getNowPlayingMoviesUseCase(movieRepository)
+                MovieUseCase(movieRepository).getNowPlayingMoviesUseCase()
+//                getNowPlayingMoviesUseCase(movieRepository)
 
                 //Assert
                 assert(invoked)
@@ -80,7 +82,8 @@ internal class MovieUseCaseTest {
                 }
 
                 //Act
-                val result = getNowPlayingMoviesUseCase(movieRepository)
+//                val result = getNowPlayingMoviesUseCase(movieRepository)
+                val result = MovieUseCase(movieRepository).getNowPlayingMoviesUseCase()
 
                 //Assert
                 val expected = Result.Success(Movie())
@@ -97,6 +100,24 @@ internal class MovieUseCaseTest {
         try {
             runBlockingTest {
 
+                val movieRepository = object : MovieRepository {
+                    override suspend fun getNowPlaying(): Result<Movie> {
+                        TODO("Not yet implemented")
+                    }
+
+                    override suspend fun create(movie: List<Movie.Result>) {
+                        TODO("Not yet implemented")
+                    }
+
+                    override suspend fun get(): List<Movie.Result> {
+                        TODO("Not yet implemented")
+                    }
+
+                    override suspend fun search(movieName: String): Result<Search> {
+                        TODO("Not yet implemented")
+                    }
+                }
+
                 //Arrange
                 val movie = listOf(
                     Movie.Result(title = "c"),
@@ -105,7 +126,8 @@ internal class MovieUseCaseTest {
                 )
 
                 //Act
-                val actual = movieSortByName(movie)
+//                val actual = movieSortByName(movie)
+                val actual = MovieUseCase(movieRepository).movieSortByName(movie)
 
                 //Assert
                 val expected = listOf(
@@ -145,7 +167,8 @@ internal class MovieUseCaseTest {
                 }
 
                 //Act
-                val result = search("batman", movieRepository)
+//                val result = search("batman", movieRepository)
+                val result = MovieUseCase(movieRepository).search("batman")
 
                 //Assert
                 val expected = Result.Success(Search())
@@ -156,15 +179,17 @@ internal class MovieUseCaseTest {
         } catch (e: Exception) {
             e.printStackTrace()
         }
-    /*
-    Testing With Mockito
-     */
+//    /*
+//    Testing With Mockito
+//     */
 
 
     @Test
     fun `movieSortByName() with list of movies then return list of movies sorted by name Using Mockito`() =
         try {
             runBlockingTest {
+
+                val movieRepository = Mockito.mock(MovieRepository::class.java)
 
                 //Arrange
                 val movie = listOf(
@@ -174,7 +199,7 @@ internal class MovieUseCaseTest {
                 )
 
                 //Act
-                val actual = movieSortByName(movie)
+                val actual = MovieUseCase(movieRepository).movieSortByName(movie)
 
                 //Assert
                 val expected = listOf(

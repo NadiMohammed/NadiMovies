@@ -4,23 +4,26 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
-import androidx.navigation.fragment.findNavController
+import androidx.navigation.findNavController
+import com.nadi.nadimovies.R
 import com.nadi.nadimovies.databinding.FragmentHomeBinding
 import com.nadi.nadimovies.domain.movie.Movie
 import com.nadi.nadimovies.ui.home.HomeAdapter.MoviesViewType.NORMAL
 import com.nadi.nadimovies.ui.home.HomeAdapter.MoviesViewType.PAGER
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.collect
 
 
 @ExperimentalCoroutinesApi
+@AndroidEntryPoint
 class HomeFragment : Fragment(), HomeAdapter.OnMovieClickListener {
-    private val viewModel: HomeViewModel by lazy {
-        ViewModelProvider(this).get(HomeViewModel::class.java)
-    }
+
+    private val viewModel: HomeViewModel by viewModels()
 
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
@@ -91,8 +94,10 @@ class HomeFragment : Fragment(), HomeAdapter.OnMovieClickListener {
 
 
     private fun navigateToMovieDetails(movie: Movie.Result) {
-        this.findNavController()
-            .navigate(HomeFragmentDirections.actionHomeFragmentToDetailsFragment(movie))
+        val bundle = bundleOf("movie" to movie)
+
+        requireView().findNavController()
+            .navigate(R.id.action_homeFragment_to_detailsFragment, bundle)
     }
 
     override fun onMovieItemClick(movie: Movie.Result) {

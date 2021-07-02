@@ -12,7 +12,7 @@ public abstract class CallbackHandler {
     @org.jetbrains.annotations.Nullable()
     public final <T extends java.lang.Object>java.lang.Object safeApiCall(@org.jetbrains.annotations.NotNull()
     kotlin.jvm.functions.Function1<? super kotlin.coroutines.Continuation<? super retrofit2.Response<T>>, ? extends java.lang.Object> call, @org.jetbrains.annotations.NotNull()
-    kotlin.coroutines.Continuation<? super com.nadi.nadimovies.domain.Result<? extends T>> p1) {
+    kotlin.coroutines.Continuation<? super com.nadi.nadimovies.domain.Result<? extends T>> continuation) {
         return null;
     }
 }

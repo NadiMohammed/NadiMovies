@@ -26,7 +26,13 @@ int anim design_bottom_sheet_slide_in 0x0
 int anim design_bottom_sheet_slide_out 0x0
 int anim design_snackbar_in 0x0
 int anim design_snackbar_out 0x0
+int anim fragment_close_enter 0x0
+int anim fragment_close_exit 0x0
+int anim fragment_fade_enter 0x0
+int anim fragment_fade_exit 0x0
 int anim fragment_fast_out_extra_slow_in 0x0
+int anim fragment_open_enter 0x0
+int anim fragment_open_exit 0x0
 int anim mtrl_bottom_sheet_slide_in 0x0
 int anim mtrl_bottom_sheet_slide_out 0x0
 int anim mtrl_card_lowers_interpolator 0x0
@@ -657,6 +663,7 @@ int attr navigationIconTint 0x0
 int attr navigationMode 0x0
 int attr navigationViewStyle 0x0
 int attr nestedScrollFlags 0x0
+int attr nestedScrollViewStyle 0x0
 int attr nestedScrollable 0x0
 int attr number 0x0
 int attr numericModifiers 0x0
@@ -708,6 +715,7 @@ int attr progressBarPadding 0x0
 int attr progressBarStyle 0x0
 int attr queryBackground 0x0
 int attr queryHint 0x0
+int attr queryPatterns 0x0
 int attr radioButtonStyle 0x0
 int attr rangeFillColor 0x0
 int attr ratingBarStyle 0x0
@@ -739,6 +747,7 @@ int attr shapeAppearanceLargeComponent 0x0
 int attr shapeAppearanceMediumComponent 0x0
 int attr shapeAppearanceOverlay 0x0
 int attr shapeAppearanceSmallComponent 0x0
+int attr shortcutMatchRequired 0x0
 int attr showAnimationBehavior 0x0
 int attr showAsAction 0x0
 int attr showDelay 0x0
@@ -3327,6 +3336,9 @@ int styleable BottomSheetBehavior_Layout_shapeAppearance 11
 int styleable BottomSheetBehavior_Layout_shapeAppearanceOverlay 12
 int[] styleable ButtonBarLayout { 0x0 }
 int styleable ButtonBarLayout_allowStacking 0
+int[] styleable Capability { 0x0, 0x0 }
+int styleable Capability_queryPatterns 0
+int styleable Capability_shortcutMatchRequired 1
 int[] styleable CardView { 0x1010140, 0x101013f, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 }
 int styleable CardView_android_minHeight 0
 int styleable CardView_android_minWidth 1

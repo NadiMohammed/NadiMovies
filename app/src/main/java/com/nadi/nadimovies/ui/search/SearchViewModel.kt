@@ -3,15 +3,18 @@ package com.nadi.nadimovies.ui.search
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.nadi.nadimovies.domain.Result
-import com.nadi.nadimovies.domain.movie.search
+import com.nadi.nadimovies.domain.movie.MovieUseCase
 import com.nadi.nadimovies.domain.search.Search
 import com.nadi.nadimovies.util.ApiStatus
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class SearchViewModel : ViewModel() {
+@HiltViewModel
+class SearchViewModel @Inject constructor(private val movieUseCase: MovieUseCase) : ViewModel() {
 
     private val _movie = MutableStateFlow(Search())
     val movie: StateFlow<Search>
@@ -30,8 +33,8 @@ class SearchViewModel : ViewModel() {
     fun searchMovie(moveName: String) {
         viewModelScope.launch {
             _status.value = ApiStatus.LOADING
-            when (val result = search(moveName)) {
-                is Result.Success -> {
+            when (val result = movieUseCase.search(moveName)) {
+                is Result.Success<Search> -> {
                     _movie.value = result.results!!
                     _status.value = ApiStatus.DONE
                 }

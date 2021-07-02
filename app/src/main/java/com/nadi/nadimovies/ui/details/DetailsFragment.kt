@@ -4,24 +4,25 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
+import com.nadi.nadimovies.R
 import com.nadi.nadimovies.databinding.FragmentDetailsBinding
 import com.nadi.nadimovies.domain.movie.Movie
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.collect
 
 @ExperimentalCoroutinesApi
+@AndroidEntryPoint
 class DetailsFragment : Fragment(), SimilarAdapter.OnSimilarClickListener {
 
-    private val viewModel: DetailsViewModel by lazy {
-        val movie = DetailsFragmentArgs.fromBundle(requireArguments()).movie
-        val factory = MovieDetailsViewModelFactory(movie)
-        ViewModelProvider(this, factory).get(DetailsViewModel::class.java)
-    }
+    private val viewModel: DetailsViewModel by viewModels()
 
     private var _binding: FragmentDetailsBinding? = null
     private val binding get() = _binding!!
@@ -64,38 +65,40 @@ class DetailsFragment : Fragment(), SimilarAdapter.OnSimilarClickListener {
                 similarAdapter.submitList(it.results)
                 applyData()
             }
+
         }
 
     }
 
     private fun applyData() {
         binding.apply {
-            viewModel.movie.apply {
 
-                movieNameTxt.text = this.title
+            viewModel.intentDataStore.apply {
+                movieNameTxt.text = this.value!!.title
 
                 Glide.with(requireContext())
-                    .load("https://image.tmdb.org/t/p/w500${this.poster_path}")
+                    .load("https://image.tmdb.org/t/p/w500${this.value!!.poster_path}")
                     .into(movieImg)
 
-                releaseDateTxt.text = this.release_date
+                releaseDateTxt.text = this.value!!.release_date
 
-                rateTxt.text = this.vote_average.toString()
+                rateTxt.text = this.value!!.vote_average.toString()
 
-                overviewTxt.text = this.overview
+                overviewTxt.text = this.value!!.overview
             }
+
         }
     }
 
 
     private fun navigateToMovieSimilarDetails(movie: Movie.Result) {
-        this.findNavController()
-            .navigate(DetailsFragmentDirections.actionDetailsFragmentSelf(movie))
+        val bundle = bundleOf("movie" to movie)
+        requireView().findNavController().navigate(R.id.action_detailsFragment_self, bundle)
     }
 
     private fun navigateToTrailer() {
         this.findNavController()
-            .navigate(DetailsFragmentDirections.actionDetailsFragmentToTrailerFragment(viewModel.movie.id!!))
+            .navigate(DetailsFragmentDirections.actionDetailsFragmentToTrailerFragment(viewModel.intentDataStore.value!!.id!!))
     }
 
 

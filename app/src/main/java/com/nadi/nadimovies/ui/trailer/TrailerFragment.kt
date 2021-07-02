@@ -5,19 +5,19 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
-import androidx.lifecycle.ViewModelProvider
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import com.nadi.nadimovies.databinding.FragmentTrailerBinding
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.collect
 
 @ExperimentalCoroutinesApi
+@AndroidEntryPoint
 class TrailerFragment : DialogFragment() {
-    private val viewModel: TrailerViewModel by lazy {
-        ViewModelProvider(this).get(TrailerViewModel::class.java)
-    }
+    private val viewModel: TrailerViewModel by viewModels()
 
     private var _binding: FragmentTrailerBinding? = null
     private val binding get() = _binding!!

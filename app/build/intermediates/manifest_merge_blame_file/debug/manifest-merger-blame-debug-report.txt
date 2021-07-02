@@ -6,71 +6,71 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml
+8-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml
+9-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\Nadi\.gradle\caches\transforms-3\338405d3201d157b8d63f838f7da8fe4\transformed\jetified-core-10.0.5\AndroidManifest.xml:12:5-79
-12-->[com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\Nadi\.gradle\caches\transforms-3\338405d3201d157b8d63f838f7da8fe4\transformed\jetified-core-10.0.5\AndroidManifest.xml:12:22-76
+12-->[com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\egyno\.gradle\caches\transforms-3\3426bcdbcaac801d84798a166ee7dfa9\transformed\jetified-core-10.0.5\AndroidManifest.xml:12:5-79
+12-->[com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\egyno\.gradle\caches\transforms-3\3426bcdbcaac801d84798a166ee7dfa9\transformed\jetified-core-10.0.5\AndroidManifest.xml:12:22-76
 13
 14    <application
-14-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:7:5-22:19
+14-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:7:5-22:19
 15        android:name="com.nadi.nadimovies.MainApplication"
-15-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:8:9-40
+15-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:8:9-40
 16        android:allowBackup="true"
-16-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:9:9-35
+16-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:9:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.5.0] C:\Users\Nadi\.gradle\caches\transforms-3\6e874290d051cc75f1be610f8a249452\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+17-->[androidx.core:core:1.6.0] C:\Users\egyno\.gradle\caches\transforms-3\ccbaafefcd088cb0b9ae7c41f8f6c384\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 18        android:debuggable="true"
 19        android:icon="@mipmap/ic_launcher"
-19-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:10:9-43
+19-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:10:9-43
 20        android:label="@string/app_name"
-20-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:11:9-41
+20-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:11:9-41
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:12:9-54
+21-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:12:9-54
 22        android:supportsRtl="true"
-22-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:13:9-35
+22-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:13:9-35
 23        android:testOnly="true"
 24        android:theme="@style/Theme.NadiMovies" >
-24-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:14:9-48
+24-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:14:9-48
 25        <activity android:name="com.nadi.nadimovies.ui.MainActivity" >
-25-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:15:9-21:20
-25-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:15:19-50
+25-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:15:9-21:20
+25-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:15:19-50
 26            <intent-filter>
-26-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:16:13-20:29
+26-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:16:13-20:29
 27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:17:17-69
-27-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:17:25-66
+27-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:17:17-69
+27-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:17:25-66
 28
 29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:19:17-77
-29-->C:\Users\Nadi\Desktop\GitHub\NadiMovies\app\src\main\AndroidManifest.xml:19:27-74
+29-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:19:17-77
+29-->C:\Users\egyno\OneDrive\Desktop\NadiMoviesHilt\app\src\main\AndroidManifest.xml:19:27-74
 30            </intent-filter>
 31        </activity>
 32
 33        <provider
-33-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+33-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\ee3546226d9e468d316b4e7da8248604\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 34            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-34-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+34-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\ee3546226d9e468d316b4e7da8248604\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
 35            android:authorities="com.nadi.nadi.lifecycle-process"
-35-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+35-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\ee3546226d9e468d316b4e7da8248604\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
 36            android:exported="false"
-36-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+36-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\ee3546226d9e468d316b4e7da8248604\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
 37            android:multiprocess="true" />
-37-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Nadi\.gradle\caches\transforms-3\13bea9692798b2519c60d1230beb679b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\egyno\.gradle\caches\transforms-3\ee3546226d9e468d316b4e7da8248604\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
 38
 39        <service
-39-->[androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+39-->[androidx.room:room-runtime:2.3.0] C:\Users\egyno\.gradle\caches\transforms-3\4de231232d34a971f26909c0d7c04a6a\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
 40            android:name="androidx.room.MultiInstanceInvalidationService"
-40-->[androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+40-->[androidx.room:room-runtime:2.3.0] C:\Users\egyno\.gradle\caches\transforms-3\4de231232d34a971f26909c0d7c04a6a\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
 41            android:directBootAware="true"
-41-->[androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+41-->[androidx.room:room-runtime:2.3.0] C:\Users\egyno\.gradle\caches\transforms-3\4de231232d34a971f26909c0d7c04a6a\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
 42            android:exported="false" />
-42-->[androidx.room:room-runtime:2.3.0] C:\Users\Nadi\.gradle\caches\transforms-3\6572ed5e6e3dc4931ba47501a6b58aa2\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+42-->[androidx.room:room-runtime:2.3.0] C:\Users\egyno\.gradle\caches\transforms-3\4de231232d34a971f26909c0d7c04a6a\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
 43    </application>
 44
 45</manifest>

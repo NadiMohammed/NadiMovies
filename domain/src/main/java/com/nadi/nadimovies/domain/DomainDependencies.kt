@@ -1,13 +1,12 @@
 package com.nadi.nadimovies.domain
 
-import com.nadi.nadimovies.domain.movie.MovieRepository
 import com.nadi.nadimovies.domain.similar.SimilarRepository
 import com.nadi.nadimovies.domain.trailer.TrailerRepository
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
-@ExperimentalCoroutinesApi
-internal lateinit var MovieRepository: MovieRepository
-    private set
+//@ExperimentalCoroutinesApi
+//internal lateinit var MovieRepository: MovieRepository
+//    private set
 
 @ExperimentalCoroutinesApi
 internal lateinit var SimilarRepository: SimilarRepository
@@ -20,9 +19,9 @@ internal lateinit var TrailerRepository: TrailerRepository
 @ExperimentalCoroutinesApi
 object DomainDependencies {
 
-    fun injectMovieRepository(movieRepository: MovieRepository) {
-        MovieRepository = movieRepository
-    }
+//    fun injectMovieRepository(movieRepository: MovieRepository) {
+//        MovieRepository = movieRepository
+//    }
 
     fun injectSimilarRepository(similarRepository: SimilarRepository) {
         SimilarRepository = similarRepository

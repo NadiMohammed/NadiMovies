@@ -130,7 +130,7 @@ public final class MoviesDAO_Impl implements MoviesDAO {
 
   @Override
   public Object insert(final List<DatabaseMovie> databaseMovie,
-      final Continuation<? super Unit> p1) {
+      final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -143,11 +143,12 @@ public final class MoviesDAO_Impl implements MoviesDAO {
           __db.endTransaction();
         }
       }
-    }, p1);
+    }, continuation);
   }
 
   @Override
-  public Object delete(final DatabaseMovie databaseMovie, final Continuation<? super Unit> p1) {
+  public Object delete(final DatabaseMovie databaseMovie,
+      final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -160,11 +161,12 @@ public final class MoviesDAO_Impl implements MoviesDAO {
           __db.endTransaction();
         }
       }
-    }, p1);
+    }, continuation);
   }
 
   @Override
-  public Object update(final DatabaseMovie databaseMovie, final Continuation<? super Unit> p1) {
+  public Object update(final DatabaseMovie databaseMovie,
+      final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -177,11 +179,11 @@ public final class MoviesDAO_Impl implements MoviesDAO {
           __db.endTransaction();
         }
       }
-    }, p1);
+    }, continuation);
   }
 
   @Override
-  public Object clear(final Continuation<? super Unit> p0) {
+  public Object clear(final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -196,11 +198,11 @@ public final class MoviesDAO_Impl implements MoviesDAO {
           __preparedStmtOfClear.release(_stmt);
         }
       }
-    }, p0);
+    }, continuation);
   }
 
   @Override
-  public Object get(final Continuation<? super List<DatabaseMovie>> p0) {
+  public Object get(final Continuation<? super List<DatabaseMovie>> continuation) {
     final String _sql = "SELECT * FROM movies";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
     final CancellationSignal _cancellationSignal = DBUtil.createCancellationSignal();
@@ -249,7 +251,7 @@ public final class MoviesDAO_Impl implements MoviesDAO {
           _statement.release();
         }
       }
-    }, p0);
+    }, continuation);
   }
 
   public static List<Class<?>> getRequiredConverters() {

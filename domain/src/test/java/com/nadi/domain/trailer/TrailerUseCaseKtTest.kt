@@ -3,16 +3,15 @@ package com.nadi.domain.trailer
 import com.nadi.nadimovies.domain.Result
 import com.nadi.nadimovies.domain.trailer.Trailer
 import com.nadi.nadimovies.domain.trailer.TrailerRepository
-import com.nadi.nadimovies.domain.trailer.movieGetNowPlaying
+import com.nadi.nadimovies.domain.trailer.TrailerUseCase
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runBlockingTest
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import org.mockito.Mockito
 
-
+@ExperimentalCoroutinesApi
 internal class TrailerUseCaseKtTest {
-    @ExperimentalCoroutinesApi
     @Test
     fun `movieGetTrailer() then invoke getTrailer() from MovieRepository`() = runBlockingTest {
         try {
@@ -28,8 +27,7 @@ internal class TrailerUseCaseKtTest {
             }
 
             //Act
-//            TrailerUseCase(0, trailerRepository).movieGetNowPlaying()
-            movieGetNowPlaying(0, trailerRepository)
+            TrailerUseCase(trailerRepository).movieGetNowPlaying(0)
 
             //Assert
             assert(invoked)
@@ -39,7 +37,6 @@ internal class TrailerUseCaseKtTest {
 
     }
 
-    @ExperimentalCoroutinesApi
     @Test
     fun `movieGetTrailer() with Mockito then invoke getTrailer() from MovieRepository`() =
         runBlockingTest {

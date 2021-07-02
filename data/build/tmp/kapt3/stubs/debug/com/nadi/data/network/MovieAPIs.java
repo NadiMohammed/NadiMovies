@@ -8,24 +8,24 @@ public abstract interface MovieAPIs {
     @org.jetbrains.annotations.Nullable()
     @retrofit2.http.GET(value = "movie/now_playing")
     public abstract java.lang.Object getNowPlayingMovies(@org.jetbrains.annotations.NotNull()
-    kotlin.coroutines.Continuation<? super retrofit2.Response<com.nadi.nadimovies.domain.movie.Movie>> p0);
+    kotlin.coroutines.Continuation<? super retrofit2.Response<com.nadi.nadimovies.domain.movie.Movie>> continuation);
     
     @org.jetbrains.annotations.Nullable()
     @retrofit2.http.GET(value = "movie/{MOVIE_ID}/videos")
     public abstract java.lang.Object getTrailers(@retrofit2.http.Path(value = "MOVIE_ID")
     int movieID, @org.jetbrains.annotations.NotNull()
-    kotlin.coroutines.Continuation<? super retrofit2.Response<com.nadi.nadimovies.domain.trailer.Trailer>> p1);
+    kotlin.coroutines.Continuation<? super retrofit2.Response<com.nadi.nadimovies.domain.trailer.Trailer>> continuation);
     
     @org.jetbrains.annotations.Nullable()
     @retrofit2.http.GET(value = "movie/{MOVIE_ID}/similar")
     public abstract java.lang.Object getSimilar(@retrofit2.http.Path(value = "MOVIE_ID")
     int movieID, @org.jetbrains.annotations.NotNull()
-    kotlin.coroutines.Continuation<? super retrofit2.Response<com.nadi.nadimovies.domain.movie.Movie>> p1);
+    kotlin.coroutines.Continuation<? super retrofit2.Response<com.nadi.nadimovies.domain.movie.Movie>> continuation);
     
     @org.jetbrains.annotations.Nullable()
     @retrofit2.http.GET(value = "search/movie")
     public abstract java.lang.Object search(@org.jetbrains.annotations.NotNull()
     @retrofit2.http.Query(value = "query")
     java.lang.String movieName, @org.jetbrains.annotations.NotNull()
-    kotlin.coroutines.Continuation<? super retrofit2.Response<com.nadi.nadimovies.domain.search.Search>> p1);
+    kotlin.coroutines.Continuation<? super retrofit2.Response<com.nadi.nadimovies.domain.search.Search>> continuation);
 }

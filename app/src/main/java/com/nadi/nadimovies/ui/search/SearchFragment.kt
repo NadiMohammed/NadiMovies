@@ -7,19 +7,19 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import com.nadi.nadimovies.databinding.SearchFragmentBinding
 import com.nadi.nadimovies.domain.search.SearchResults
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.collect
 
 @ExperimentalCoroutinesApi
+@AndroidEntryPoint
 class SearchFragment : Fragment(), SearchAdapter.OnSearchClickListener {
 
-    private val viewModel: SearchViewModel by lazy {
-        ViewModelProvider(this).get(SearchViewModel::class.java)
-    }
+    private val viewModel: SearchViewModel by viewModels()
 
     private var _binding: SearchFragmentBinding? = null
     private val binding get() = _binding!!

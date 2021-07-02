@@ -1,9 +1,11 @@
 package com.nadi.nadimovies.domain.similar
 
 import com.nadi.nadimovies.domain.Result
-import com.nadi.nadimovies.domain.SimilarRepository
 import com.nadi.nadimovies.domain.movie.Movie
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import javax.inject.Inject
 
 @ExperimentalCoroutinesApi
-suspend fun movieGetSimilar(movieID: Int, similarRepository: SimilarRepository = SimilarRepository): Result<Movie> = similarRepository.getSimilar(movieID)
+class SimilarUseCase @Inject constructor(private val similarRepository: SimilarRepository) {
+    suspend fun movieGetSimilar(movieID: Int): Result<Movie> = similarRepository.getSimilar(movieID)
+}

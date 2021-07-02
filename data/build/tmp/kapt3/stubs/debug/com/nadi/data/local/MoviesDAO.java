@@ -10,27 +10,27 @@ public abstract interface MoviesDAO {
     @androidx.room.Insert(onConflict = androidx.room.OnConflictStrategy.REPLACE)
     public abstract java.lang.Object insert(@org.jetbrains.annotations.NotNull()
     java.util.List<com.nadi.data.local.DatabaseMovie> databaseMovie, @org.jetbrains.annotations.NotNull()
-    kotlin.coroutines.Continuation<? super kotlin.Unit> p1);
+    kotlin.coroutines.Continuation<? super kotlin.Unit> continuation);
     
     @org.jetbrains.annotations.Nullable()
     @androidx.room.Query(value = "SELECT * FROM movies")
     public abstract java.lang.Object get(@org.jetbrains.annotations.NotNull()
-    kotlin.coroutines.Continuation<? super java.util.List<com.nadi.data.local.DatabaseMovie>> p0);
+    kotlin.coroutines.Continuation<? super java.util.List<com.nadi.data.local.DatabaseMovie>> continuation);
     
     @org.jetbrains.annotations.Nullable()
     @androidx.room.Update()
     public abstract java.lang.Object update(@org.jetbrains.annotations.NotNull()
     com.nadi.data.local.DatabaseMovie databaseMovie, @org.jetbrains.annotations.NotNull()
-    kotlin.coroutines.Continuation<? super kotlin.Unit> p1);
+    kotlin.coroutines.Continuation<? super kotlin.Unit> continuation);
     
     @org.jetbrains.annotations.Nullable()
     @androidx.room.Delete()
     public abstract java.lang.Object delete(@org.jetbrains.annotations.NotNull()
     com.nadi.data.local.DatabaseMovie databaseMovie, @org.jetbrains.annotations.NotNull()
-    kotlin.coroutines.Continuation<? super kotlin.Unit> p1);
+    kotlin.coroutines.Continuation<? super kotlin.Unit> continuation);
     
     @org.jetbrains.annotations.Nullable()
     @androidx.room.Query(value = "DELETE FROM movies")
     public abstract java.lang.Object clear(@org.jetbrains.annotations.NotNull()
-    kotlin.coroutines.Continuation<? super kotlin.Unit> p0);
+    kotlin.coroutines.Continuation<? super kotlin.Unit> continuation);
 }

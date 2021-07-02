@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/338405d3201d157b8d63f838f7da8fe4/transformed/jetified-core-10.0.5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/338405d3201d157b8d63f838f7da8fe4/transformed/jetified-core-10.0.5/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/338405d3201d157b8d63f838f7da8fe4/transformed/jetified-core-10.0.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3426bcdbcaac801d84798a166ee7dfa9/transformed/jetified-core-10.0.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3426bcdbcaac801d84798a166ee7dfa9/transformed/jetified-core-10.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3426bcdbcaac801d84798a166ee7dfa9/transformed/jetified-core-10.0.5/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pierfrancescosoffritti.androidyoutubeplayer/core/10.0.5/137a7c4ba8f0e25e996737a17cd1953c1380f72b/core-10.0.5-javadoc.jar!/" />

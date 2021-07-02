@@ -2,9 +2,7 @@ package com.nadi.nadimovies.domain.movie
 
 import com.nadi.nadimovies.domain.Result
 import com.nadi.nadimovies.domain.search.Search
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 
-@ExperimentalCoroutinesApi
 interface MovieRepository {
     suspend fun getNowPlaying(): Result<Movie>
 
